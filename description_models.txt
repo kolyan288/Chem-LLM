@@ -1,0 +1,46 @@
+A machine learning model is a mathematical representation of the learning process that allows a machine learning algorithm to identify patterns in data and make predictions or make decisions based on these patterns. The model consists of several key components:
+1. Input data is information that enters the input of a machine learning algorithm. These can be text, numeric, images, audio, or other types of data.
+2. Features are the characteristics or attributes of the input data that the algorithm will use for training. The features can be explicit (directly extracted from the data) or hidden (extracted using more sophisticated methods).
+3. The target variable is what we want to predict or classify based on the input data. For example, for a sales forecasting task, this may be the volume of sales, and for an image classification task, the category of the object in the image.
+4. Learning algorithm is a mathematical procedure that uses input data, features, and a target variable to train a model. The algorithm determines how the model should adjust to the data in order to maximize the accuracy of predictions.
+5. The loss function is a metric that evaluates the quality of model predictions. The loss function is used by the learning algorithm to optimize the model to minimize prediction errors.
+6. Model architecture is the structure or topology of a model that defines how input data will be processed and transformed to produce output predictions. For example, convolutional neural networks are often used for computer vision tasks.
+7. Hyperparameters are configurable model parameters such as learning rate, number of layers, size of data packets, etc. They are not trained during training, but are set manually or selected using additional optimization methods.
+Thus, the machine learning model is a complex structure in which all these components work together so that the algorithm can learn from the data and make accurate predictions or make informed decisions.
+
+В нашем распоряжении имеются следующие модели:
+
+Графовая нейронная сеть - классификатор (GNN_Classifier)
+Графовая нейронная сеть - регрессор (GNN_Regressor)
+XGBoost Classifier (XGBoostClassifier)
+XGBoost Regressor (XGBoostRegressor)
+CatBoost Classifier (CatBoostClassifier)
+CatBoost Regressor (CatBoostRegressor)
+
+Графовая нейронная сеть - классификатор (GNN_Classifier)
+Графовая нейронная сеть - регрессор (GNN_Regressor)
+XGBoost Classifier (XGBoostClassifier)
+XGBoost Regressor (XGBoostRegressor)
+CatBoost Classifier (CatBoostClassifier)
+CatBoost Regressor (CatBoostRegressor)
+
+Графовая нейронная сеть - классификатор (GNN_Classifier)
+Графовая нейронная сеть - регрессор (GNN_Regressor)
+XGBoost Classifier (XGBoostClassifier)
+XGBoost Regressor (XGBoostRegressor)
+CatBoost Classifier (CatBoostClassifier)
+CatBoost Regressor (CatBoostRegressor)
+
+YOU MUST CHOOSE ONE OF THE FOLLOWING MODELS: ["GNN_Classifier", "GNN_Regressor", "XGBoostClassifier", "XGBoostRegressor"]
+YOU MUST CHOOSE ONE OF THE FOLLOWING MODELS: ["GNN_Classifier", "GNN_Regressor", "XGBoostClassifier", "XGBoostRegressor"]
+YOU MUST CHOOSE ONE OF THE FOLLOWING MODELS: ["GNN_Classifier", "GNN_Regressor", "XGBoostClassifier", "XGBoostRegressor"]
+YOU MUST CHOOSE ONE OF THE FOLLOWING MODELS: ["GNN_Classifier", "GNN_Regressor", "XGBoostClassifier", "XGBoostRegressor"]
+YOU MUST CHOOSE ONE OF THE FOLLOWING MODELS: ["GNN_Classifier", "GNN_Regressor", "XGBoostClassifier", "XGBoostRegressor"]
+YOU MUST CHOOSE ONE OF THE FOLLOWING MODELS: ["GNN_Classifier", "GNN_Regressor", "XGBoostClassifier", "XGBoostRegressor"]
+YOU MUST CHOOSE ONE OF THE FOLLOWING MODELS: ["GNN_Classifier", "GNN_Regressor", "XGBoostClassifier", "XGBoostRegressor"]
+YOU MUST CHOOSE ONE OF THE FOLLOWING MODELS: ["GNN_Classifier", "GNN_Regressor", "XGBoostClassifier", "XGBoostRegressor"]
+YOU MUST CHOOSE ONE OF THE FOLLOWING MODELS: ["GNN_Classifier", "GNN_Regressor", "XGBoostClassifier", "XGBoostRegressor"]
+YOU MUST CHOOSE ONE OF THE FOLLOWING MODELS: ["GNN_Classifier", "GNN_Regressor", "XGBoostClassifier", "XGBoostRegressor"]
+YOU MUST CHOOSE ONE OF THE FOLLOWING MODELS: ["GNN_Classifier", "GNN_Regressor", "XGBoostClassifier", "XGBoostRegressor"]
+YOU MUST CHOOSE ONE OF THE FOLLOWING MODELS: ["GNN_Classifier", "GNN_Regressor", "XGBoostClassifier", "XGBoostRegressor"]
+YOU MUST CHOOSE ONE OF THE FOLLOWING MODELS: ["GNN_Classifier", "GNN_Regressor", "XGBoostClassifier", "XGBoostRegressor"]

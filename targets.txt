@@ -1,0 +1,5580 @@
+HHP
+Control death day
+Remaining ratio
+Drug
+MRD
+RUmax
+pA2/pKB
+Time in light
+Cytotoxic concentration
+Clearance_blood
+increase in response
+No. of depolarizations
+s-GPT level
+Jss
+Mean latency
+ED75
+Control of growth
+Remission
+Log II50
+Relative rate metabolism
+Cation influx
+Relative molar potency
+CPM
+beta t1/2
+Remaining activity
+Vaginal activity
+Drug level
+kp
+logP
+Safety ratio
+Eosinophils
+Decrease in arterial blood pressure
+BsI
+SSAT
+Inhibitory dose
+Anticonvulsant activity
+Mean graph mid point
+Plasma insulin
+Gastric damage
+Average body weight change
+Fold change
+Gastric concentration
+Urine output
+No. of mice surviving >6 months
+UI
+Changes in airway resistance
+Binding ratio
+Fh
+Decrease in RFU
+Transporter production rate (r)
+MGDH GI50
+LH concentration
+Lesion frequency
+C5a affinity
+Apparent binding constant
+kinact/Ki
+SDL
+Max plasma level
+Cmax/SS
+LD90
+Delta ERP
+Onset of block
+Max platelet response
+HVA level
+Urinary Na+
+MED100
+Ring immobility
+kA-
+T/C (tumor vol)
+Lowering activity
+Weight loss
+Delta TG
+Pyrogenic effect
+No. of falls
+SC50
+No. of rabbits convulsed
+PTZ protection
+GT fold stimulation
+T/C @ 30mg/kg
+Unwinding
+PR
+Ratio pKb
+LD50
+FBP mean score
+Log change
+Partition ratio
+Ki comp
+Mean volume of hind paws
+NCC
+Log k'w
+Fluoroscence
+Ca2+
+Intensity of erythemia
+AUC 100
+GSH level
+Rlung
+Skin thickness
+increase in mean survival time
+Toxic
+Exploration motility
+pKinc
+VAR
+Max vasoconstriction
+Mean effect
+Max increase
+log Ks
+VV
+Maximal non-toxic dose 50
+K obs / 1 1/Ms
+Control Uptake
+Resistance
+BWC
+Agonism
+Clonic
+Animal death
+Insulin secretion
+Decreace in BP
+Inhibition concentration
+Injected dose (g)
+Mean day survival
+C/P
+ICL5
+Plasma MIC
+Thermogenesis
+Edema variation
+NBT reduction
+Change in cholesterol
+MID log LC50
+Chelator
+Reduction in prostate weight
+T/C 1.2
+Hill coefficient (n50)
+GMS activity
+Total cells
+Cyotoxicity
+Inhibition type
+Competition
+Egg reduction
+GC200 [d]
+Accumulation
+MDD50
+SLI
+RMP
+Mass index
+Increase in LD50
+Tumors
+No. of emetic episodes
+I 90
+Cytotoxic endpoint
+Brain
+TPO(max)
+kOH
+logEC50
+Acid titer
+Change in amplitude response
+Sublethal dose
+Relative analgesic potency
+DT
+No. of animals survived
+Dose/g tissue
+Frel
+Delyse
+Weight change
+ED25
+Antimalarial activity
+Vasodilatory rate
+Rectal temperature
+Responding
+Loss of righting reflex
+No. of writhes
+No. of new tumors
+Change in BP
+Observed at
+Walking behaviour
+Kinact
+Na+ output
+Relative
+Anti-Factor Xa activity
+Relative ionotropic activity
+Effectiveness
+Max APD95
+KNa
+TTO
+Inhibition at 10nM
+Percent remaining
+QT interval
+Peak concentration
+Ke naloxone
+Change in volume
+Reverse potential
+Log koff
+Arthritis scores
+Ratio CC50/EC50
+Uptake rate
+Aspirin formed
+Ks app
+ILC
+Relative antiandrogenic activity
+No. of toxic deaths
+Analgesicactivity
+1-logKi
+Vehicle control
+AUC total
+Fluorescence activity ratio
+Decreased_triglyceride
+AP
+kC,U
+Concentration in Brain
+Twitch tension
+Deuterium retention
+Mean aortic blood pressure
+ClC95
+Delta Tm
+Max suppression
+Maximal effect
+Aqueous solubility
+Derived trabecular thickness
+Thylpositive cells
+Kd
+Cr
+p value
+Average survival
+K obs
+Cooperative effect
+Ratio Ke
+NADH content
+Inhibition uptake
+CQ
+Uterine weight effect
+X1(50)
+Antifertility activity
+Occlusions
+Highest nontoxic dose
+I14
+Dopamine release
+Radioactive absorption
+Serum metabolite
+Tm shift degreeC
+H2O2 prot
+rb
+kIAM'
+dpm bound to protein
+No. of suncus vomited
+Vagal response
+Hepatic triglyceride
+MLC50
+Ratio plasma concentration/IC50
+Maximal binding
+KdSPR
+AUC inf
+Catalepsy
+Anesthetic effect
+Gellar cook activity
+I50 M
+[I] for Km'
+Onset seizure
+Conversion dose
+Tumor free survivors
+MCC50
+Normal
+Area
+Decrease in MAP
+HDT
+Antiinflammatory Activity
+Cat score
+Cells sickled
+Homovanillic acid concentration
+Change in systolic pressure
+MFC
+PC50
+Brain penetration index
+Log (1/C)
+Skin tests intensity
+Irritation of eyes
+B
+Counts
+Activity Score
+ICmax
+CLd
+%Remaining
+K13+K23
+Cp(f)
+HR/chol
+Average weekly weight change
+Progressed remission
+No. of virus free mice
+DBP/UP ratio
+Cells killed
+pD
+Protein
+Relative intensity
+EC1000
+Rmax
+No. of escape failures
+Log relative k'
+Cataleptic effect
+Log k GSH (s-1)
+Ultrafiltration
+LCK
+% absorbed
+Rhodamine-123 accumulation
+deltaTm
+T4
+cell kill activity
+No. of males fertile
+No. of males cohabited
+VF
+Specific incorporation
+Duration of anesthesia
+Killed
+Concentration in serum
+Control cell number
+E1/2
+Weight change difference
+log(1/IC50)
+Histone_modification
+Serum LDL-cholesterol
+pMIC
+GABA current
+Unbound plasma
+Chlorine uptake
+Ratio Ki
+Anti-analgesic
+pKm
+P50e
+Lipid-soluble radioactivity
+logPm
+No. of openarm entries
+Currents
+Degranulating activity
+IT50
+SubG0
+Count/h
+Serum TG
+Increase over control
+pIC50
+ERP
+Control
+Relative affinity
+logKw
+Last therapy day
+Solubility
+t1/2
+logRA
+Duration of action
+Positive cells
+IG
+MI100
+Cmax_ratio
+Tc
+Photoxic reaction
+Permeability index
+Ti
+t
+Apoptosis induction
+Mean time to death
+LD95
+pKa BN
+Food intake
+ALP Level
+KT
+T-cell inhibition
+p[A50]
+Delta mean blood pressure
+TRAP staining
+CC100
+EC16
+Ca2+ flux
+IC50/IC50
+TEWL
+LV
+Decrease in mean arterial pressure
+pC30
+Nephrotoxicity
+MfI
+Convulsion
+Ca2+ antagonism
+PFU/ml
+LWI
+Actual clearance
+Fold_activity
+Log rate constant
+Coronary flow
+Dead cells
+Max.stimulation
+logPc
+MTA
+T3/4
+logS0
+Dissociation
+Tumor growth delay
+AbA/analogue ratio
+Delta Gsolv
+-Log alpha
+K cat/Km
+VR
+Injected dose/g tissue
+Kii
+Control at the dose of 50.0microg/mouse
+Rotarod toxicity
+Binding Decrease
+Broncho selectivity
+Rate of [Ca+2] increase
+Total peripheral resistance
+ks
+Median tumor
+cpm
+Acute lethal toxicity
+Uptake ratio
+Abrasion score
+Attacks
+Reversal ability
+lnK
+Slope of Schild plot
+R.I
+IC27
+MTC
+Contractility (LV dP/dt)
+Protein interaction energy
+logGI50
+Adrenal uptake
+Pressure
+Naproxen produced
+logC50
+Substrate activity
+Epoxide formation
+Kid
+C 8 h
+Log Pc18
+Mean total resorption
+Difference
+p[BH+50]
+Cartilage space
+Potential
+Stereotypy score
+Enoyl-CoA hydratase
+MTT reduction
+Log AP
+Decay-time constant
+I
+MTT
+pTGI
+Arterial pressure
+Max blood pressure fall
+Alpha 50
+Worm reduction
+Log 1/C
+VCT
+CT3
+Neurite bearing cells/total cells
+CMpH
+ED50 Ratio
+Loss of inactivation
+Relative inotropic potency
+Decrease in AP
+Mean IC50
+MED
+Log Poct Z
+Glyceamia evolution
+No. of males mated
+Cell viability
+No. of mice alive
+Changes in dynamic compliance
+Dose (urinary recovery)
+No. of rats ovulated
+Relative JC-1 accumulation
+Mean total plasma concentration
+LV dP/dt
+C/I ratio
+Photolysis
+Mycelial growth
+DAR
+T/C
+K1/2
+T inh
+RBP
+-Log ED50
+Log 1/Km
+Antihypertensive
+Differential
+Log 1/E100
+p nMED
+FIC
+EDmax
+Incidence of occlusion
+Change of DBP
+Inhibition
+Log IC50(uM)
+MPC
+Concentration of max response
+Plasma triglyceride
+HMGR activity
+Infectious virus
+Reversible
+n50e
+Brain content
+Femoral blood flow
+Paraparetic mice
+Relative inhibitory activity
+Relative intrinsic activity
+Cross reaction
+I50
+Acid output
+DNA crosslinking
+Increase in plasma lipase
+ID40
+Basis motility
+Inhibition effect
+K+ output
+AC
+log10cfu
+Actual duraction
+pC1
+Vmax / K
+CLm
+Relative contractile potency
+MTD/8
+Change in dP/dt
+V/K
+t0.9
+Fold selective
+AA
+HCMV yield
+MED99.9
+ED 50
+Inhibition potency T/II
+k_2
+KI50
+Brain concentration
+Formation
+tox/total
+Preventive_index
+Systolic blood pressure
+IC50 reduction
+30 days survivors
+HAR
+Delta APD90
+Mean day of death
+Colony formation
+RPF
+RH
+Hypotension
+Occ ED50
+Survival increase
+MFC50
+Molar potency
+Predrug
+SMT
+Temperature decrease
+Uterotrophic activity
+Tumor burden
+IC80
+T-cell
+Tensile strength
+T-C/C
+Rate acceleration
+MST
+Ratio_EC50
+cAMP production
+Average dose
+Binding
+Counts of rotation
+PKa2
+AD100
+Nr/N
+Increased life span
+Maximum inhibition
+ascrit
+Injected dose
+PActivity
+P50d/P50c
+Saluretic potency
+Marrow area
+Delta pKi
+Bound
+Log 1/MIC (mM L-1)
+Anticoagulant activity
+Recovery
+CIC
+DW
+SGOT activity
+Total coenzyme
+LED100
+LogD5.0
+Counts/30
+No. of infected cells
+Spontaneous reperfusion
+Total rate
+Curative Index
+Rs
+Competitive protection
+Permeability coefficient
+ICdATP-50
+ILSmax
+lesions
+MTL
+Range of survival days
+Min plague Inhibitory
+Ratio EC50
+Heart rate
+Dead/treated
+PA
+TCT
+Survivors / treated
+T/C min
+T decrease
+Max decrease in heart rate
+Vm rel
+LV dP/dTmax(delta)
+Iron mobilization
+Basal glucose
+Least dose
+PDH active/PDH total
+Antagonism effects
+pK2
+K aps
+Reserpine hypothermia
+Venom
+Ki high
+Post anitbiotic effect
+Affinity constant
+Delta F
+Specific radioactivity
+Rate of inhibition
+Basal activity
+CLT50
+IW
+Prolongation
+PD2
+Staining potential
+KSV
+Cr leakage
+Diameter of inhibition zone
+E2 response
+Delta F75
+Oral diuretic activity
+FLT
+Log10ED50
+HD50
+KB app
+Cmin_ratio
+KF
+TI
+Spontaneous activity
+ED37
+FBP
+Synergy
+Eicosanoid production
+Log P/(100-P)
+Cmax_metabolite
+Substrate efficiency
+Approximate colony formation unit
+Thymidine reversal
+Oxygen consumed
+pinhibition
+No. of mice protected/tested
+Total counts
+Cross linking
+PKC
+Cells positive
+Ki slope
+EC150
+Drug concentration
+NAD+ content
+T/C @ 50mg/kg
+cAMP accumulation
+Rate constant
+Ca2+ binding protein
+cAMP
+Respiratory system resistance
+ka/kr
+Average survived
+Ac50
+LD60
+EC5
+Time to max. inhibition
+Electrolyte excretion
+ITI activity
+Kkin
+Rate
+-Log EC20
+GTPshift
+Stroke volume
+DHP-I susceptibility
+Ki'
+Normal weight gain
+Binding activity
+TP
+Binding intensity
+Max inhibition concentration
+Log A50
+IC35
+BBR
+n
+RD1000
+EC80
+Prodrug remains
+krel
+CBF increasing activity
+LD99
+Inotropic potency
+Decrease in CR
+Basal uptake
+Glucose transport
+Postsynaptic antagonist
+B incorporation
+Max APD90 (delta)
+Average for skin reaction
+Duration of peak action
+Maximal change
+Alpha-cholesterol
+Uterotonic activity
+Growth Index
+Bathochromic shift
+DL50
+Peak time
+DPM
+Animals cured
+Range
+LogK-IAMex
+KA effect
+TPI
+F_fraction
+Vasoconstriction effect
+Acc. counts
+Hexobarb ST
+RHA
+Relative toxicity
+TOX
+Difference in retention time
+Spont activity
+DNA unwinding concentration
+No. of WDS/60 min
+Basal
+B/P
+Max efficacy
+Lesion
+Elevation
+Partition coefficient
+Total dose
+Weight change at nadir
+GM-MIC
+Kr/kmax
+Decrease in IC50
+nNOS activity
+Log Kmemb
+Max lowering
+Selectivity index
+Inflamed
+ALT/GPT
+k_off
+Hypnosis potentiation
+Ventricular rate
+koff
+Parasites no. per 100 Myoblasts
+LD40
+EC14
+Tremorolytic dose
+Skin response
+Rate of decrease
+Tumor weight reduction
+Weight (mg/g)
+Triglyceride level
+AUC nom
+Max relaxation
+Osmolality
+GDP activity
+LDL
+ke
+No. of animals
+S.I
+Intraperitonal score
+RD50
+Relative Km
+Primary tumor weight
+Basal binding
+mBP(delta)
+Body weight gain
+Behavior
+Phosphorolysis
+k x10e-3
+No. of pits
+EC2x
+Aggregates
+Average food intake
+Increase in [Ca+2]
+Survivor increase
+Analgesia
+Mouse behavior activity
+CAI activity
+Cellular reversion
+Isometric contraction
+No. survived
+Selectivity Index
+Intestinal toxicity
+T.P.L
+Kapp
+Potentiation
+I30
+Virus yield
+D/P
+ED58
+PC100
+Activity
+Log A
+Cellular uptake
+Ventricular MAPD90
+UR
+Kic
+T
+Phospholipidosis_index
+Volume change
+Antihypertensive score
+Vascular relaxation
+Log10CCID50/g
+Stability of BSR
+Functional selectivity
+Formation of NO3-
+PMA
+Amount formed
+Serum TSH
+ABD50
+PFC/spleen
+AUC glu reduction
+2xAPTT
+TCI
+Amine formed
+T/C @ 40mg/kg
+Sleep ratio
+Reduction in virus yield
+No. of animals protected/number of animals tested
+Volume of air
+Saluretic activity
+ODC
+AC3
+BP
+Implants
+CA
+T/C x100
+Range of MIC
+P/D
+Kkmax
+Max binding
+GSH reactivity
+Plasma ALT at 24 h
+Anticonvulsant
+pK3'
+Spermidine concentration
+BAV
+Antilipid peroxidation
+Change of CO
+Vertebral blood flow
+Renal clearance
+Ulcer Index
+ALT
+pKL
+No. of avoidance
+Cures@ 40 mg/kg
+MI50
+ODC Activity
+Mean no. of shocks
+Trans
+SOD activity
+ICL50
+IC100
+Concentration ratio
+delta logPoct-dod
+Epidermal thickness
+Change in foot-licking latency
+Mean AUC
+Max drop
+Fapp
+Active dose range
+Protein-DNA complex formation
+ASF
+logIC50
+Decrease in blood pressure
+Thromboxane B2 (TxB2)
+Controls
+Mean change
+30 day survival / total
+Brain/Blood concentration
+No. of animals exhibiting toxicity / Number of animals tested
+Varea
+Log 1/MIC
+Anti-pent effect
+permeability
+Mean activity
+LV dP/dtmax
+Molar ratio
+Collateral index
+Gain
+DFM
+Compound remaining
+Time over 100ng/ml
+Platelet aggregation
+Cures@ 80 mg/kg
+PSA
+Paw swelling
+RRT
+I7
+B/P ratio
+Decrease in exit latency
+Dec
+RD500
+Cr release
+Psychotropic Effect
+KD2
+EIR
+Apoptosis
+CLogD7.4
+Hydroxyproline release
+pKi(uM)
+Average survival days
+No. of lung metastasis
+Abdominal fat
+log(1/CON)
+ND
+k act
+Deaths
+keq
+Anti-uterotrophic effect
+Paw weight
+Ba
+Log d50
+k/K
+Log RAI
+pC25
+LD50 x 1/40
+Cholesterol
+Kieq
+Log Po
+Ratio I/P
+Beats/min
+MNTD
+g/30min
+Protected/Tested
+Log 1/Kd
+Carnitine acetyl transferase
+Log Ki
+Cell saturation
+TC25
+Allodynia score
+Plasma TC
+No. of tumours
+No. of strains
+MyristoylCoA
+Weight change of AP-S
+No. of nonpregnant/treated
+Vasodilation
+Intake
+MNEC
+Log 1/B+1
+R
+GTP-gamma35S bound
+TED
+Cumulative amount
+Succeeded/tested
+GABA shift
+MBC90
+Log 1/Th+200
+ED85
+t1/2_ratio
+GSTCP activity
+SNGFR
+EC0.25
+1/krel
+PAO activity
+T1/2 iv
+Ratio ki
+N/A
+Gastric lesion score
+Log K3
+RPP
+TGI ratio
+Regiospecificity
+Serum level
+No. of animals protected / no animals tested
+Cutaneous toxicology score
+Bioreduction
+Cured
+rate constant app
+Test/control survival
+Amount excreted
+Responder
+tR
+Total tumors
+log10EID50/g
+No. of cells
+Ko
+Glucose lowering relative to positive control
+kH
+MFC90
+Active/total cultures
+Cell no./dish x10E5
+Change in sensitivity
+Average gross pathology scores+/- SE
+PF50
+IC99
+RBI
+RBF
+MRTV
+Log activity
+Clearance
+Peak deltaMAP
+Day of first positve reaction
+Log KH
+PI metabolism
+ln Kt
+k2c
+Agonistic effect
+T/C value
+Tlag
+XC50
+Postjunctional agonist potency
+Delta mean survival time
+Tmax
+Activation Factor
+Tm shift
+Rn
+Change in stroke volume
+reduction in CL_renal
+ET-1 level
+Tail flick latency
+KdSPA
+Delta p
+ID/g tissue
+PDE inhibition
+New tumors
+Survivors at day 4
+IC75
+Antiproliferative effect
+Ki.c
+Mitotic figures
+Change in TC
+Plasma TG
+Reaction time
+Liver catalase
+Passivity
+Toxic/total
+Convulsions
+IFN gamma concentration
+Vrel
+pCF
+TIME
+ED delta20
+MTD/4
+LogP
+External nucleoside
+MRTinf
+ALD50
+No. of writhings
+Relative inhibitory potency
+Log K'
+log(1/ID50)
+Relative adrenal weight
+Plasma
+Log K4
+Parasitemia
+Log 1/T
+RBC x 10e 3
+No effective/ no. tested
+Max change in blood pressure
+Kup
+Log sensitivity
+Change in IOP
+T/C (ratio of treated to control)
+Unchanged tracer
+Uterotrophic effect
+E max
+Log of inhibitory zone
+influx_CL
+log(10'6/IC50)
+Baseline systolic BP
+Damage score
+IC90
+Positive control
+Clerance
+Emesis
+Macrophage cytotoxicity
+Kact
+Anti-fXa activity
+Tonic-clonic seizure
+Phosphor
+Log [-6]
+max inhibition
+KHOX
+Relative amount
+Antibacterial activity
+Uptake
+Blood AcH
+Fos
+Inhibition Zone
+Relative salidiuretic activity
+Paw weight increase
+EC25
+solubility
+CR
+Thrombin time
+[3H] TdR uptake
+pD2
+Unmetabolized
+Relaxation
+pKa2
+N20 formed
+E 1/2
+k2 / Ki
+Static remission
+KD1
+OSAV
+Caco-2 A-B
+Necrosis response
+LC50 ratio
+AMPA effect
+DOM
+Liver cholesterol
+Max contractile force
+k'
+SBP
+Punishment test msad
+tCmax
+E100
+Mean relative potency
+K inact/Ki
+Vomits
+Antidiuretic
+DBP15
+CT2
+Relative influx
+Potency ratio
+QTc interval
+KD/Ki
+Antagonist effect
+Lw/Bw
+ID/g
+Urea Nitrogen Concentration
+Bleeding time
+Hydrolysis rate constant
+MIC70
+Equilibrium OD340
+Mortality range
+Propioaldehyde generated
+MTX ratio
+Oxygen uptake
+BW loss
+Increases
+pKd
+Mice with lesions
+Fungicidal concentration
+FC
+Log k'
+C8h
+A
+EC99
+Log 1/D40
+[EOP']infinity/[EOH]infinity
+No. of occlusions
+Hypokinesia
+Reflex
+Log B/F
+Time constant
+Log Kobs
+Kill at C50
+Modification of hemoglobin
+g/mouse
+Log K' IAM
+Pm
+GT rate
+GABA agonism
+Damaged area
+RP
+BAT weight
+No. of tumors
+PPM
+Dose modification
+Change of CF
+EC40
+Decrease in QA interval
+Bilurubin Level
+Slow binding
+Rate of recovery
+K inact/I
+[A]T,L
+Mean paw diameter
+Max potentiation
+2*APTT
+Latency to exit
+Ki_app
+APD
+pEMR
+Increase in concentration
+IC70
+Rate of turbidity change
+-log(1/MIC)
+Total release
+Transport inhibition
+Log C
+Apoptotic index
+Average survival (days)
+NSR
+Margin before onset of hypokalemia
+CL
+Log Poct N
+Fibers/preparations
+Na+ inactivation
+No. of scratches
+Sensitized animals
+Volume reduction
+Median survival time
+Day of death
+Initial mean arterial pressure
+PCA shift
+Critical micelle concentration
+Transactivation
+NAD content
+LLR msad
+Polyamine pools
+Dead
+efflux_CL
+MPC8
+Si
+Activation time
+Max hemorrhage
+ID x kg of body weight/g of tissue
+Log beta
+Relative Ki
+Edema density
+% turnover
+Phosphorylating activity
+Fresh weight
+Antagonist
+ClB
+LDL-C
+Urinary volume
+Pa
+No. resp animals / Total
+-Log KB
+Survival after 30 days
+Protection
+Cures/no. of animals
+%Cleared
+Cocaine
+SBP change
+Antiovulatory activity
+Relative initial rate
+K app
+Total score
+Diuretic activity
+Cell cycle fraction
+Mean HR
+pAI50
+Cell survived
+Function
+Emesis_ED
+CI50
+Decrease of spontaneous firing rate
+Decrease in SBP
+LS
+Natriuretic activity
+Inhibitor level
+Emax,diss
+Mu/delta ratio
+TG 2X lag
+kR
+No. of chicks
+DIZ
+Serum LH level
+Intact
+Anxiolytic activity
+INCC50
+CHI
+Quench
+GC50
+Vd area
+Weight at term
+Rate max
+Inotropic effect
+Prejunctional antagonist potency
+p[A]50
+fp
+Alpha max
+Effective concentration
+Anogenital distance
+FA
+Log Pmw
+Log Pcyc
+Cell permeation
+Max protection
+ZImax/KZI
+Antagonism
+IPA
+Extent of skin lesions
+[Ca2+] increase
+Tumor free/total
+Creatinine
+TAR
+%AUC
+Apparent enzyme activity
+Average lung weight
+Total uptake
+Immunosupressive activity
+Plasma histamine
+C20 APD95
+Kd'
+Effect
+Du
+Cmax_triphosphate
+Peff
+pIC50(calc)
+Acetylation
+Receptor occupied
+Max uterotonic response
+Entry latency
+No. of transfers
+ADI
+Spent time
+Incorporation rate
+TWI
+Blood flow
+Cytotoxic effect
+Photo-cross-linking of DNA
+Cellular uptake of boron at 16h
+Aggregation response
+MABP change
+LTC
+Motility
+Pharmacokinetic
+max activation
+GPI
+fCmax
+BUN
+Survival rate
+Log 1/M
+Enzyme level
+pKHB
+Log 1/K
+CT
+Gastric emptying
+Ts
+AUC second treatment
+Weight changes
+Probability
+No. of deaths
+Tumor latency
+Saq
+Ratio IC50/EC50
+&#256;
+K m
+LSD
+Weight reduction
+Cdyn
+SC
+ED2sec
+Time constant T2
+Time of dosing before antigen challenge.
+TFS
+LVP
+Increase
+delta pKa
+log(10^6/IC50)
+logt1/2
+Zone size
+Trabecular thickness
+pK3
+Reduction in respiratoryvolume
+QT
+Delta K
+Reduction in blood pressure
+NSVT
+Plaque inhibition result
+Hormonal activity
+pC60
+EC15
+Antibiotic activity
+Rm
+CLtotal
+EC90/MIC
+Fold increase
+Log
+Hk
+EC10
+Chemotherapeutic index
+Ratio IC50
+pLD50
+Iron excretion
+Drug Conc (serum)
+Max contraction
+Log SOSIP
+Glucose level
+Plasma Level
+Behavioral effect
+CGI
+Relative initial slope
+Log TGI
+Log 1/MEC
+Specific activity
+I.D./g
+K app ratio
+Tumor half growth
+Cells in metaphase
+Mean vesicle score
+Log BR
+Average score
+Change in No. of trophozoites x 10E-5
+Ratio GI50/EC50
+pC2A
+Metabolic stability
+No. of culturesactive/total
+No. of revertants per plate
+Kn
+Relative ID50
+Mutation frequency
+Change of SBP
+C0
+Accumulated counts/30 min
+Agonist
+NSR survival rate
+DOPA accumulation
+FD
+Delta BP
+2x PT
+IC25
+Change in FVR
+RVCF
+Polyamine level
+NS
+Rate of metabolism
+Revertant colonies per plate
+Adrenochrome formation
+EBD20
+Animals
+Inhibitory potential
+SHR delta blood pressure
+LC90
+Prejunctional agonist potency
+K obs / 1
+Blood glucose level
+Pupil size
+C70
+MBP
+Recovered radioactivity
+kmax
+Tumor uptake
+FI
+Ca2+ transport
+-Log KD
+UC50
+LD5
+Cell death
+[A]
+Intrinsic actvity
+No change
+Q50
+KL
+K2
+tz
+Progesterone production
+ED35
+pKD
+Inhibitory diameter
+logPF
+Infarct
+Blood glucose
+Surviving factor
+ID100
+Inflection point
+Dose converted
+Differential affinity
+pKH
+Ratio_[3H]:tubulin
+Log K delta
+Fraction ionised
+No. of positive cases
+Inhibition at 1uM
+Increase in CBF
+[I] 0.5
+Nitrate
+Agonistic potency
+No. of rats died
+Reversion
+LC50
+EPMR
+Average max
+Phosphorylation
+M/NTT
+LMA
+Log APA
+Ca2+ elevation
+Grip strength
+Administered dose
+Delta pH
+TBPS IC50
+AD
+Sp St
+MPO release
+fAUC
+Ulcer score
+AR
+Rate of oxidation
+Relative enzyme activity
+Zone of inhibition
+N/D
+FBA
+Induced frequency
+CC25
+selectivity
+GABA ratio
+Kon
+Glycaemia evolution
+Cytotoxiciy
+Change in Tm
+MSD
+Reversal type
+Toxic dose
+Relative efficacy
+Mean hemagglutination titers
+Haptoglobin
+Initial rate ratio
+Carbohydrate
+IC50/EC50
+T1/2 h
+pLADm
+Drug release
+Feed consumption
+P Increase
+Cholesterol level
+Acquisition time
+Log tumor cell kill
+Tissue levels
+MHPG_SO4
+BFU
+HI
+Relative inactivation
+Ion enhancement
+T1/2 h/s
+cKi
+K
+Dose range
+Suppression
+Parasites
+Average turns
+Cortex_Clearance
+Spreading
+RW
+IogP
+Delta G
+k eff (rel)
+C6h
+Lethal dose
+Inhibition ratio
+Relative daunomycin accumulation
+Ki''
+BHIA50
+CIC IC50
+FL-1
+P-value
+T1/2 increase
+ECS ratio
+Cp(T)
+No. of animals with damage
+Ki0
+Turnover
+Dosage
+VFT
+k+2/k
+logD IAM
+TR
+CIC95
+pTCD50
+Urinary output
+Of control
+K50
+Beta2 duration
+Degrees Centigrade
+Inactivation time
+Control period
+Of non-HDL-C
+Testes weight
+DBP-20
+graft survival
+Na+/K+
+Depression
+ACR
+MI
+Graft survival
+Chronic TI
+MLC
+Max salt tolerance
+CCCT
+RFU
+logPapp
+Increase in footpad thickness
+ED20
+Max possible effect
+Challenge time
+ID (per g of organ)
+Delta RM
+Cooperativity
+GR
+KH
+P50e / P50c
+AOA
+k3
+Change systolic BP
+Resorbing implants
+Phospholipidosis_MEC
+Log LD50
+-Log KA
+No. of active/no. of tested
+Mean tumor delay
+Vdss
+Fluorescence intensity
+Degree of activation
+Insulin lowering effect
+Average body weight
+dP/dt max
+Pigmentation capacity
+Secondary response
+Aggregation ratio
+Heart beat
+Drug uptake
+Tissue concentration
+Respiratory frequency
+Change MAP
+Thrombus weight
+OMNI med
+kHO
+Drug Conc (LDL)
+DP
+pKapy
+SBP decrease
+CPmax
+Resting potential
+Cured/treated
+Stenosis
+FB
+NO formation
+TGI
+av
+k cat/Kuncat
+SHR
+Log Y
+PAR
+FPGS activity
+pEC5
+Mydriasis
+Tumor cure
+TDI
+Log Poct A
+Delta LV
+Delta I
+IZ/AAR / AAR/LV
+Apoptotic cells
+Unaltered compound
+Infection score mean
+Change of hemoconcentration
+Performance
+GOT Level
+Increase in volume
+Animals protected
+P50e/P50c
+ED99.9
+Accumulated counts
+T max
+Untreated control
+Iron binding
+Sedative dose
+Reversibility ratio
+Uterine activity
+No. of dogs reverted
+Delta pEC50
+Delta heart rate
+AUC p
+Tonic
+Tidal volume
+pKi1-pKi2
+Total acid output
+pH dependence
+RTP
+Partial remission
+Fraction cleared renally
+7-day weight change
+Maximal efficacy
+Reverse transcriptase activity
+Relative viability
+k eff
+Caverage
+kOX
+Control at the dose of 5.0microg/mouse
+Hypochromic shift
+Anxiolytic affect
+LRR
+WEIGHT
+SF50
+Brain uptake
+VT50
+Plasma conc
+Relative agonistic activity
+Residual_activity
+Antagonist efficacy
+CMI
+dP/dt
+Growth inhibiton
+Biological evaluation
+ILSmaxOD
+Concentration
+Transfection efficiency
+Vasopressor responses
+Zinc finger reactivity
+Antinociception
+K rel
+Empty
+HSF
+RVmax
+PFA
+Tumor
+Weight difference
+Log S
+ST/CB ratio
+Ratio LD50/IC50
+Log Pe
+Thymidine shift
+IF
+Free C
+Synergy EC50
+Extracted
+Log LC50
+SNA
+washout
+Protection ratio
+Exhal+B1718ation of 14CO2
+Cell aggregates
+Severity
+GR control
+Utreotropic effect
+No. of deaths/mice injected
+Mean score
+Basal control
+Rate of reduction
+PCP activity
+K5
+Relative stimulation index
+deltalog10CCID50
+Min oral dose
+ED ratio
+HC50
+kinact
+Analgesic
+VOLSYN
+Average colony count
+Active
+ILS max
+CCID50
+Platelet
+Vacuole response
+Max Uosm
+Latency time
+Retention
+Pancreatic response
+Mitotic index
+Stability
+Rate of hydrolysis
+I23
+k cat/Km
+average log GI50
+Body weight In. / Fi.
+Therapeutic index 99
+No. of errors
+Residual binding
+Rescued neurons
+Index
+Mean tumor volume
+Catalase
+Prodrug reduction
+EDmin
+Decrease in blood glucose
+Acceleration
+Log KL
+Ka(T4)
+Liver CH levels
+Ouabain
+Max fall in blood pressure
+MABP
+Hours above EC90
+Max delta FC
+kDPPH
+Max collateral index
+RF
+DTT inhibition
+Increase in plasma amylase
+NO2- (mol/mol)
+Z
+IUP
+U/P
+S/Cereb Ratio
+Activity B
+Inhibition tumor index
+C1
+RT50
+F3/4
+Simulation
+MPC/MIC
+BSI
+Zone of stimulation
+Tox50
+Mean duration
+QH
+Kb app
+Fana
+alphat1/2
+Reduction in RBS
+Formation of compound
+Protective dose
+Average turns/first 15 min
+Reducing activity
+A10
+Variation
+No. of rosettes/100 Jurkat T cells
+PGI
+MC100
+D-2
+-Log IC50
+Calcium release
+CIp
+Delta RBF
+Median tumoral volume
+Body weight reduction
+Replacement
+Dose/g
+T/C-CQ
+Edema
+CFR
+DNA fraction
+Flaking score
+60-day survivors
+-ln K
+Summation MABP
+Xi50
+DeltaBP
+KI'
+Ki inact
+No. of relapses
+Change HDL -C
+PKa1
+1/2Kcat/Km
+Ratio CC50/IC50
+Density
+T1/29
+2x TT
+Toxic effect
+ID50 ratio
+K ass
+Tumor free survival
+Mean no. of lung colonies
+Delta Fmax
+Asorbance
+Ratio of dose
+Plasma lipids
+Response rate
+Pregnant
+Log K'W
+K inact/Km
+Phototoxic effect
+Decrease in Bmax
+BCM serum Ca
+Lethality
+E2
+Recovery rate
+Cardiac contractile force
+C/I
+Postdrug
+Ulcer index
+Depolarisation
+HF ratio
+HA release
+MISS T/C
+CMC
+Response ratio
+Induction of catalepsy
+Relaxed DNA
+KD non ionic
+Protective effect
+POE score
+Protected mice
+UN
+Intrinsic Toxicity
+Synaptic site
+Threshold concentration
+Excess MST
+Log 1/LD10
+MNCC
+Kin x
+MIC50/MIC90
+k3/K1
+Death
+Average skin reaction
+Alpha E
+IE1
+Relative inhibitor potency
+Dose ratio
+MAD
+kb
+Relative ET-A IC50
+Dilation
+ILS (Sur)
+Eye toxicity
+Depletion
+Selectivity coefficient
+Delta Ca
+Post drug blood pressure
+Transcriptional activation
+Serum total cholesterol
+EC20
+CyD50
+Max decrease
+Net cell kill
+Occ50
+Log beta3
+Log t1/2
+Symptoms
+p alpha
+ID90
+ov. rat/total
+Max non-toxic dose
+-Log C
+Fmean
+Csat/Co
+Internalisation
+ERP (delta)
+Kbb
+Jump latency time
+Unbound
+Cures@ 40mg/kg
+Alphax10E
+NO release
+Lesion coverage
+Level
+Stimulatory effect
+Sensitivity
+Avoidance time
+ED2
+Lung weight
+Kt
+MET
+DA level
+Communicating cells
+ABBC
+Peak deltaHR
+Monocation species
+D2 duration
+Antiemetic activity
+Separation
+Response unit
+ID95
+Benzidine positive cells
+Amount
+Behavior response
+Relative activation
+Hemolytic activity
+P2 uptake
+C10
+Antigen p24 content
+Conc_plasma
+Average survival time
+Topical potency
+I13
+DOPA level
+Max delta BP
+Time above IC50
+Drug period
+Tp
+ICD
+Prodrug reconversion
+Ki/K'i
+MGM
+% remaining
+Delta TAO
+Initial_rate
+Dose excreted
+Log k
+Mean log GI50
+Skin uptake
+Time to max. BSR
+CL/F
+MDR
+Activity (mg)
+Kimut/Kiwt
+L-T3
+AUC 1/T1
+Tumor-free
+Vmax / Kmax100
+Inhibition activity
+Cp
+No. of dogs used
+TW
+pKi
+Emesis_Cmax
+-Log K
+Agonist index
+Km x10e3
+Log [-5]
+RH/RL
+PAE
+FRP C20
+T/C 1
+Overt behavoiur
+IP3-sensitive Ca2+ stores
+Mean day appearance of lesions
+EC99.9
+Ulcer incidence
+Log ESA
+Rel potency
+CS50
+Tissue swelling
+Log PR
+Blood clearance
+Log 1/ED30
+Swimming activity
+Phorbol displacement
+Max delta MAP
+Anticonulsant activity
+pKiL
+Phagocytosis
+Residual contractile activity
+Time constant T1
+Relative threshold dose
+K SH
+Change in DA synthesis
+Residual amine (ee)
+Antidiuretic activity
+Log ED50
+Hypoglycemic activity
+Rate of hydride transfer
+Inverse relative potency
+Diuretic effect
+IO
+PG
+-Log Sw
+Concentration_Plasma
+Max fall in MAP
+DMF
+Hydrolysis rate
+Myoblasts with parasites
+Rating
+ED70
+Lag time
+Prolonged VRP
+Flu intensity
+Apparent_pKa
+No. of canine
+Molar equivalence bound
+Diuretic effects
+Cell toxicity
+Survivial / total
+Radioactivity
+Aneuploidy activty
+Analgesic efficacy compared to epibatidine
+Lesion score
+RHT
+Relative dissociation rate
+ED99
+Ctau
+cGMP content
+Other
+Relative rate of decomposition
+Max hypotension
+Average 14-day MGR
+Delta CPP
+Ki/ki
+K DMPC
+Tumor growth inhibition
+[GSH]
+Vp/F
+-Delta G
+Traction test
+Relative cytotoxic activity
+Activity in animals
+Level in serum
+Reversion activity
+DBP
+CL_renal
+Melanotropic activity
+Bone damage score
+pIC100
+Viscosity
+Serum HDL-cholesterol
+Total glomeruli
+Albumin
+Molar primaquine Index
+EA
+Presynaptic antagonism
+Phototoxicity
+Net dry weight
+ER max
+TAD
+log S
+Change in blood flow
+Weight change on day 5
+packed cell volume
+Delta HR50
+Activity (umol/mg.of protein. min)
+Antagonistic activity
+Relative tumor growth
+IS
+Radioactivity remained
+Phosphorylation rate
+pA50
+pH1/2
+Thermodynamic solubility
+pIC50(mM)
+Kidney weight
+K OX
+Pressor response
+Log TCID50
+LDL oxidation
+CLtot
+behavioral observation
+-Log LC50
+Symptom initiation
+Ventricular relative refractory period
+TC50/IC50
+GDP ED50
+Toxicity related death
+Cr secretion
+LD app
+LPS
+K act
+EC100
+Max dose
+Relapses
+Delta HDL-C
+Survival range
+Potency index
+Max fall in IOP
+MIW
+Oxygen consumption rate
+Sweetness potency
+Saldiuretic activity
+Amount bound
+Brain/Plasma
+PBI
+3 log kill
+Decrease in No. of avoidence responses
+AIDH activity
+pA2
+Decrease in heart rate
+Distribution ratio
+No. of axonal branchpoints/cell
+logMIC
+IC50
+Fraction of accumulated 86Rb remaining.
+RVR
+DNA damage
+Tubulin binding
+Suppression ratio
+Delta non HDL-C
+G1
+Permeability rate
+logCL
+median survival time, days
+Apoptosis index
+Mean log concentration ratio
+Licking latency
+Mean effective dose
+ka
+Selectivity in binding
+Cell density
+Na+ restoration
+Delta IOP
+K+/Na+ ratio
+No. of rats with 5-HT syndrome
+LTS
+PT
+Log ILS max
+T/C 41
+MLD
+LD50 x 1/10
+Relative resistance
+C10APD90
+UTC
+EC95
+Gated current
+Staining
+Inhibition period
+logKA
+CFU-GEMM
+SPAV3
+No. of invaded cells
+Observed [pt]
+nKa
+WBC x10e-3
+Ratio pIC50
+Max activation
+Cholesterol reduction
+DRF
+MED50
+Delta A/min
+Connectivity density
+Dry weight
+Significance
+Blockade duration
+Decrease in MABP
+Culture negative
+No. of escape failure
+AUC Npo
+SPB
+Metabolite levels
+Sleep time
+Urine Na+
+K'i
+Deiodination
+Excretion rate
+Serum total triglycerides
+Distribution
+Incorporated
+No of monkeys
+Change in MABP
+Relative growth
+dose BP/BP
+Fluid
+Reversibility
+Weight ratio
+Avoidance response
+DA release
+Injected dose/organ
+EC50
+AD99
+Final average tumor weight
+Membrane integrity
+T bound
+Helicity
+Arrhythmias times
+No. of survivors
+ILS40
+Ulcerogenic activity
+kn
+Log P16
+Negative ionotropic activity
+Thy-1 expression
+Positive
+Log 1/D50
+p(1/MIC)
+MMC
+delta Vmax
+Intinsic activity
+Inhibition potency
+Lowest effective dose
+Half duration
+CCIC50
+I20
+RHR
+P-450 loss
+Drug responding
+ED delta
+Time in flight
+Photosensitization
+MeAIB uptake
+OT interval
+ED33
+Lysis time
+Min antiviral concentration
+Anti-fighting behaviour
+Active/total
+Median toxicity
+Gastric lesions
+Aberrant cells
+MHC
+Relative uterus weight
+MIC99
+Serum Mg2+ level
+XI50
+%LBF
+Free radical scavenging
+Delta BG
+KS
+Relative hydrolysis
+Log 1/ID50
+Anticoccidial Activity
+Log 1/KL
+Mean tumor atency
+K4
+Tissue area
+Bmax2
+HD100
+ID99
+Cmin_PBMC
+Kinase activity
+Hydrolysis
+Min lytic concentration
+k3/k1
+NBT positivity
+Tumor growth
+Selectivity
+Agonist effect
+Ratio LC50/IC50
+Seizure stage
+Duration of reversal
+ionization
+PTZ
+Blockage activity
+Rotorod index
+Papp e-6
+Mean enhancement of binding
+Urine K+
+Log TA98
+Max contractile activity
+Change in cell number
+CPE index
+CPD50
+GE
+Virucidal
+Ibuprofen
+pEC20
+Max rev
+Delta plasma cholesterol
+eLog D
+K-2
+Carotid flow reduction
+Reversal
+Safety index
+% reduction
+Reactivation
+Delta SBP
+APD50
+Mean RBF
+Log Ko
+Carotid Flow Decrease
+Tubulin
+Colonic weight
+SUV
+AlDH activity
+rf50
+Total urine activity
+DLBT
+Enzyme inhibition
+MG-MID
+Relative SEAP activity
+Proportion of survivors
+Antibody titer
+Cell kill
+Cleavage
+Arterial occlusion
+Uptake at C50
+Max release
+delta Log P50
+Stretches
+Hypermotility
+Stimulatory activity
+I42
+Blood lactate
+pIC30
+Activity (nmol/mg.of protein. min)
+AD90
+Relative stimulatory activity
+TDS ratio
+NADPH oxidation
+PkB
+Judgments
+LD0
+Muscarinic receptor affinity
+CCTD50
+Log 1/B+100
+Rotational behavior
+Optical density
+ED10 HR
+log(10'3/IC50)
+Lambda-ex
+AFLCl
+Kc
+IC50H
+Urinary excretion
+pH
+Transport
+E
+Net log kill
+T3
+A/Ad
+Imax
+PC
+Functional profile
+Ratio ED50/MIC50
+Contractility
+No. of mice effected/No. of treated
+CT1
+ppKb
+Velocity relative to ATP
+Ke selectivity ratio
+No. of mice dead
+Pro/Min/Enz
+BDW
+AUC first treatment
+Reduction in virus titer
+K DMPG
+P
+Survivors / total
+RT
+Rotation number
+IA50
+Activty
+Lipid peroxidation
+Mean body weight
+Glucose normalisation
+No. effective
+No_cures
+LogPapp
+Change in response rate
+AUC N
+Radioligand bound
+Glucose
+Of tumors
+Vm/Km
+Max delta
+CT50
+Liver concentration
+Sinus beats
+Antimicrobial activity
+Clinical reference
+Weight
+Hypersensitivity factor
+Precursor inhibition
+Necrosis
+BAT
+s-GOT level
+KinX
+DNA peak exclusion
+Relative EC30
+Geometric mean
+Alpha-lipoprotein cholesterol
+E50
+Change of body weight
+pAlpha
+Antibiotic resistance
+S-phase
+Relative phosphorylation rate
+Parasitaemia
+Extremes treated
+No. of mice protected
+DC
+ED3
+Relative Selectivity
+Final plasma concentration
+KDNB
+Max effect
+Time spent
+pKa1
+Relative antitumor activity
+pIC25
+Mean ED50
+Hepatocyte stability
+Complete remission
+BP increase
+Fold-induction
+Boron in media at 0h
+[3H] thymidine cpm/dish
+C175
+RIC50
+AUC glu reduction(mM x min)
+damage reduction
+PCaco-2
+Cellular content
+Log M50
+Mean axonal area
+Cell no/dish
+Block
+Vinact
+T/C survival days
+Delta t
+DR10
+pRA1
+Plasma [14C] cholesterol
+pRA
+CE logK'
+ACT
+BUI
+Mean pit size
+Ratio pA2
+Prolactin treatment
+Ki obs / [I]
+Frequency
+MDH Reactivation
+Periosteal mineral apposition rate
+Deaths/total
+A50
+Reduction of prostate weight
+(kcat/KM)/kuncat
+Log 1/LD50
+k-1
+F
+Daq
+Time to 30% BSR
+Delta cpm x10e-3
+Km/Ki
+EOS inhibition
+Therapeutic indices
+NA
+LVEDP
+Sensitisation
+Recovered in urine
+AOC
+Dose elevation
+behavior
+Bapp
+K ACT
+Maximal activation
+Inflammation units
+aPTT
+Relaxivity
+Cytochrome loss
+Relative liver weight
+KB
+HACU improvement
+Mu/kappa ratio
+XL50
+Nitric oxide
+K B
+Chemosensitizing activity
+DeltaTm
+Test
+ME increase
+FR10 treated
+MNTD50
+Antiviral selectivity
+IC5
+TD50
+% change
+Adduct formation
+General activity
+CT5
+Suppression of parasitemia
+FR10 control
+Decrease in fighting
+LDH release
+Analogue level
+AdoMetDC
+Gross kill
+pA1
+SD
+K amine
+Dispacement
+Dioxygen uptake rate
+Enhancement ratio
+M2/M1 Index
+Duration of seizure
+KD app
+Remained
+ID
+Cmin
+T99.9%
+Score
+APD60
+Paralysis
+Initial rates
+pC20
+Severity mean
+BWLmax
+Max
+MOT
+Ki int
+Mean no. of revertants
+Uterotropic activity
+Quantity
+Central selectivity
+Locomotor activity
+Binding affinity
+ED50 / ED50 (taxol)
+pLADM
+%
+Ventricular tachycardia
+BSA binding
+Efflux Ki
+AH interval
+Kiact
+Log delta (1/T2)
+Radius of inhibition zone
+Binding energy
+RBA
+Resistance index
+Css
+Clonic seizures
+Max aggregation
+K+ excretion
+Mortality
+MPD
+Challenge dose
+Plasma lipid level
+Edema ratio
+ID/animal
+METD
+Growth inhibition
+Ki(app)
+Papp
+[I]
+FS-SIF
+RCI
+Efflux
+Clones
+Variation of edema volume
+Culture
+pK1b
+Control growth
+Reduction in movement
+Cardiac depression
+Mobilization
+Modification of adsorbed drug
+Vmax(app)
+dPT
+K x10e-5
+Ratio pKi
+Ratio_tumour/plasma
+Plaque accum
+Skin Graft Survival
+ED100
+Corpora lutea
+EC90
+Activity remaning
+Relative loss of potency
+k2'
+PCMA antagonism
+K app x10e6
+Derived trabecular number
+Log GI50
+Extent
+% of selectivity
+Affinity
+DSB
+Lowering
+TD
+pKa BZ
+Carboxylase activity
+Relative uptake
+No. of sensitive animals
+No. of mice infected /total
+EC5x
+Urinary recovery
+HSF activity x10e2
+Hepatic necrosis in survivors
+Displacement
+Exhibiting turning
+Polymorphonuclear cells
+Glucose uptake
+EC30
+Original amplitude
+pA10
+Relative TS
+Average uterine weight
+-log(RatioIC50)
+Delta beats/min
+COF
+Margin before onset of tachycardia
+Lysis area
+Fraction cured
+Caco-2 permeability
+Writhing number
+Median retension latency
+NTD
+Parasite_Clearance
+Relative change
+MNTC
+Intensity
+Fecal weight
+Content
+pKa AZ
+K1
+QTc Interval
+HF
+MRF
+Catalepsy score
+MIC
+-Log IC50/IC50
+Assembly
+Diffusion
+P value
+Survivors at day 8
+S
+Delta
+Cells
+Log Ke
+No. of rats with lesions
+Duration of plateau
+Plasma integral
+% of control
+ITP
+RBC
+Activation
+Activity rating
+HD40
+MCD
+No. pregnant/mated
+Ksolv
+MTS
+LLR score
+Km(app)
+No. of survivors/total
+ILB
+pKact
+d tox
+Adjusted Ki
+I.D./g tissue
+Anti-HIV activity
+Ferret emesis
+Survivors at day 30
+C1.3
+Km'
+I/E
+T/A
+No. of guinea pigs protected
+Prolactin control
+C/T
+Insulin release
+Total activity
+PDR
+Log [-9]
+Minimal bacteriostatic concentration
+Decrease in life span
+Rotorod
+rT3 Production
+SEC50
+Ki low
+MST increase
+Conversion rate
+DeltaTC
+Transfection activity
+inhibition (at 100uM)
+MG MID
+Fold resistance
+Log k'o
+NOAEL
+Result
+pKa
+Peripheral restriction index
+Occulations
+Relative oncentration
+Max SBP
+Log K-1
+LC30
+Thymidine uptake
+Imbalance
+K inact
+pkb
+Inhibitory potency
+Potencymean
+No. of dead mice
+Topical irritation score(0-21)
+Human potency
+I10
+GID75
+k+2
+PI hydrolysis
+Average onset
+Ionization
+Log 1/D125 (mM kg-1)
+ED6
+Thymolysis
+Log KB
+RSA tR
+Log AC50
+Reactivity
+ascites volume
+[3H] thymidinecpm/dish
+Ratio Ki(app)
+F1/2
+Vss
+FACO Activity
+Max delta APD95
+No. total
+No. of mice cured
+Vz
+Minimal dose
+MTD
+Mean aortic flow
+Lambda-em
+NOEL
+Formation of NO2-
+Survivals
+Antihypertensive activity
+Agonist response
+Log 1/Ki app
+WLC PRA
+Relative uterotrophic activity
+EPS
+Serum cholesterol
+T.I.
+Lactone
+PKa
+ID/g femur
+Antiuterotrophic activity
+Iron change
+c90
+Enantioselectivity coefficient
+Tumor inhibition ratio
+Relative thymus weight
+Responders
+Glucose correction
+MLS
+No. of untreated cells
+%max
+IPol
+Plasma half life
+Growth Inhibition
+Pigment induction
+Remaining
+Binding inhibition
+pC3
+x fold
+No. of mouse protected
+2 x APTT
+Kinact/Ki
+Cured animals
+Median T/C
+DNA on filter
+Tumor mass
+Threshold active dose
+Total
+Luciferase activity
+Secretion
+K Bapp
+Drug deaths
+GSH level (mg)
+Blood sugar lowering
+HT50
+Max delta FRP
+Mean survival in days
+PDC
+HTS data
+M.A.D
+Oral dose
+Survival dose
+VI30
+Log ratio
+Log kw
+Beta-lactamase induction
+RTG
+log10CFU/g
+Organ distribution
+No. of implants/pregnancy
+AB
+pKa5
+Kpot A,B
+Decrease
+pKabz
+Amplitude
+HF2
+Binding site preference
+ER
+DR20
+Relative seminal vesicle weight
+BBB Impermeable
+MED10
+Relative hydrolysis rate
+Lipid level
+AE Score
+50% naproxen formed
+Amount of TXB2 formation
+Inhibition at 5nM
+kr
+SVT
+Uterine weight
+Accumulation counts
+BP (ED50)
+2x APTT
+Remains
+Analgesic efficacy
+c30
+PTZ seizure
+Behavior score
+Ratio LD50/ED50
+First adverse effect
+Virus rating
+Free complex
+bwc
+Iron clearence
+Average consumed
+Opsin shift activity
+Toxicity index
+pLADy
+n/N
+Max reversal
+Migration
+Growth_index
+Hemolysis
+EC2
+IL-1 production
+AZT formation
+Platelets x10e-3
+Analgesia duration
+McPhail index
+Developed tension
+pKa3
+PL
+Apoptotic cell
+Affinity ratio
+Tumor response
+EC5X
+TGI50
+No. toxicity/tested
+EPS MED
+Restoration
+POT vigilance
+Log PTA
+G2/M
+Relative to DA
+Mean inhibition
+log KOW
+Max inhibition
+RI
+TE50
+No. of axonal branch points/cell
+Uterus effect
+Ulcerogenic index
+Log RA
+Max respose
+Count
+Fa
+Taste class
+Presumed drug-related deaths
+135
+Survivors at 24 h
+CC50
+Acetaldehyde
+Survivors
+Plaque reduction
+Behavioral syndrome
+Solubility ratio
+Tested/Control
+Delta mmHg
+log Kp
+Tp control
+M/T
+5-HT syndrome
+T1/2 beta
+Substrate specificity
+Peak effect
+Vasorelaxant effect
+Brain levels
+No. of metastases
+Biliary excretion
+Load
+mequiv of Na+/kg
+Max inhibitory effect
+TOX/TEST
+Average seizure score
+Stool output
+Loss of cells
+Relative to control
+Mice In. / Fi.
+ED125
+% NO2-
+MIC+/MIC-
+AB50
+GDPactivity
+VM
+log10CCID50
+Average weight gain
+Log Kd
+TOC ED50
+PWT
+Morphology
+Influx
+Toxic deaths
+MED90
+Nitrite
+Body weight loss
+Change in body weight
+BG
+PO2
+Max mean weight loss
+I40
+EI
+RLU
+TAI
+Relative binding potency
+rapp
+Delta FFA
+Testosterone
+%Bound_Albumin
+T2
+KD hydro
+Bacterial growth
+Toxic index
+No. deaths/treated
+Mean relative surviving fraction
+% injected dose/cm3
+Sensory evaluation
+Papps
+D150
+T/C (d)
+Glucuronidation rate
+Cell plating efficiency
+k3'
+Superoxide anion
+FIC index
+Tumor incidence
+LV FRP
+No. of counts
+Khd
+sigmaH
+BWL
+No. of uptake sites
+Log 10 cell kill
+Proconvulsant action
+Effective dose
+P ratio
+log10CFU/ml
+Intrinsic efficacy
+Correct responses
+Saluretic score
+Chemotactic index
+Relative F%
+Average latency
+I / E100
+Peak radioactivity in blood
+Retention time
+IC
+Cumulative dose
+Hemodynamic change
+Flow rate
+Min concentration
+Oxidation rate
+Treatment period
+Triglyceride correction
+TBMIC
+Mean uterine weight
+HSAI
+M2/M1 index
+No. of cures
+Counts/30 min
+Mole fraction
+Brain lesion
+Mean no. of days post-infection to death
+Dose per organ
+Lysis
+D50
+K alkyl
+CF C20
+Quenching
+RLU/well
+Activity of control
+Intrinsic_solubility
+Growth response
+deltaTCID50
+Differentiation activity ratio
+C50
+Horizontal screen
+Change in tidal volume
+CD100
+Max temperature decrease
+VCR accumulation
+Pleural fluid
+Kq
+Atrial MAPD90
+Max change
+Cell Survival
+Inhibitory response
+Relative potency
+Blockade effect
+Tissue distribution
+Growth zone
+Dose-modifying factor
+EC50 ratio
+Ionotropic activity
+Pw
+Net Swelling
+Falling
+DOPAC concentration
+-Log MIC
+Hematocrit
+P24 concentration
+MI0.5
+K L
+Ri
+A1 selectivity
+Log CR
+Acetylcholine level
+Efficacy ratio
+Mortality inhibition
+Trabecular no.
+ID/organ
+BP change
+Of dose excreted
+No. of sensitive
+BBC
+Med tumor area
+-Log K0.5
+Baseline
+Activity A
+-logMIC
+pD10
+mean log D
+MIC80
+No. of animals responding/animals receiving drug
+DTH
+IP+SC score
+Emax
+Prolonged ARP
+Excess zone radius
+K second
+Plasma glucose
+Change of HR
+Log inhibition
+MES
+Cbrain
+Mean excretion of Na+
+No. of plaques
+CTL activity
+Cp max
+T free
+PIC seizure
+Affinity state 2
+Wet weight
+Med tumor weight
+FPT
+Modification
+EC50rel
+Delta blood pressure
+Excretion
+Differentiation
+ERP observations
+PRL
+Infertility activity
+Log kOH-
+Delta I/I
+RAP
+increase in temperature
+PEI
+Inhibition rate
+ED (1mV)
+Mineral apposition rate
+Krel
+K beta
+Fungicidal
+Log TCID50/mg
+Mean survival days
+Platelet count
+Maximal relaxation
+O2 consumption
+Specific binding per mg of protein
+Log Phep
+Log 1/IC90
+Mean reaction
+Max decrease in blood pressure
+Reaction
+Volume
+log10PFU
+Ca2+ current
+Rate of O2 consumption
+FI5
+Cytotoxic activity
+pKp
+Epinephrine level
+Ki/KI
+C20
+Log net cell kill
+p24
+Cytotoxity
+ED97
+CMP
+Change of tumor area
+CFU
+[Ca2+]
+Ca2+ transport S/M
+LDL cholesterol
+NB
+Atherogenic index
+AV block
+-Log K B
+PAP
+IC0
+Substrate metabolized at 1hr
+Relative susceptibility
+Survival after 10 days
+Exudate volume
+Hypnosis duration
+Log EC50
+10E2 k1
+FRE
+Control response
+Blood loss
+TC
+Change in entry latency
+3H-TdR incorpolation
+ME
+Threshold current
+Displacement of DP
+Average change in body weight
+EC0.01
+Vmax / Km
+Complete survival dose
+K obs x10e2
+% release of nitric oxide
+Log2
+HVA control
+Cumulative urine volume
+Fallen/treated
+Max PI
+V
+Normal beats
+CPA
+Log P/Log D
+LA
+Fold_reduction
+Adjuvant activity
+Erythema intensity
+Survival time
+Lysozyme release
+Inhibitory activity
+NADH oxidation
+H2 activity
+Injected
+Km app
+IAR
+Onset for sleep
+Delta MAP
+Cmax_[GH]
+Thymidylate shift
+T1
+Dead/total
+AUC/dose
+Mean response
+Platelet count/ul
+CMV yield
+Denaturation rate constant
+Apoptotic Activity
+Km/Kcat
+ECLT
+No. of animals protected
+Induction number
+Learning time
+Antitumor activity
+TSH/chol
+Plasma GH release
+Log TA100
+Min lethal dose
+pED50
+CIC90
+Control value
+CLup
+Histamine level
+ToxD/Surv
+MTD/16
+kred
+Selectivity rating
+K'
+Cage leaving
+Prostaglandin E2 level
+AAL
+Toxicity Survivors
+Concentration_urine
+Exhalation of 14CO2
+Bullatacin index
+Gross log kill
+Relation
+pKa,1
+SA
+Change in mean aortic flow
+CC50/IC50
+NED
+Pe
+Crel
+Post Antibiotic Effe
+POT
+Relative IC50
+pA2 - pA10
+CBF-ID75
+I5
+Tumor volume reduction
+Serum lipoprotein cholesterol
+Ear thickness
+K''IAM
+AUC ratio
+G30
+KII
+Mean weight
+Log K'w
+logKi
+GSH
+Therapeutic efficacy
+Amount of unreacted substrate
+Serum glucose
+Ki/(Km/Kcat)
+SCW reduction
+Seizure score
+2T11
+Kix
+Pka2
+PI turnover
+Log 1/E50
+Fibril formation
+3.3
+Prolongation effect
+Aggregation
+Carbonyl group
+Neuroprotection
+MAC reduction
+High
+Vd
+Mean excretion of Cl-
+IMPDH activity
+CPM x1000
+Reduced food intake
+Production
+Log MBC
+Increase (Emax)
+PT extension
+GRI
+Po/w
+Degradation rate constant
+No. of crosses
+Delta logS
+fT>MIC
+Extent of DNA binding
+Choline uptake
+Relative esterase susceptibility
+Log M
+D
+T/C max
+Cell no./dish x10E3
+Average peak Concn.
+IP
+Relative binding
+Removal of microfilariae
+Improvement
+Total turns
+Peak current
+Serum triglyceride
+Dissociation ratio
+Log KAT
+Length
+TN
+Bile flow
+Speed of induction
+Rotations/10 h
+IFI
+NE
+LV DRxHR
+FPTase activity
+pChange
+pCC50
+Cmax_unbound
+Virus titer
+Absoption
+Hypocalcemic activity
+Max response
+Bactericidal
+Vmax/Km
+MES/TEST
+5-HT Level
+pKA
+GPT Level
+Change in MST
+1/Ki
+Fold reduction
+FBF Ratio
+Enzyme activity
+TC lowering
+CIT
+KDMPC
+Log 1/delta/Ca
+Log Kw
+HPB
+Injected dose/g
+Water consumption
+Survival
+Delta S-H
+log(1/C)
+Decrease in heart norepinephrine
+EC12
+Plasmaconcentration
+Bacterial counts
+Viability
+Tubulin content
+Ratio_Cmax_brain/plasma
+Relative ED50
+delta logD
+MTC50
+% recovery
+Control relaxation
+pDelta IOP
+Fold reversion
+Proliferative response
+Acid hydrolysis
+k_on
+Drug discrimination effect
+No. of ferrets
+pEC0.5
+IFN
+Agonist potency
+Threshold value
+Antipsychotic
+No effect dose
+Hypotensive activity
+Hyperglycemic activity
+R%
+Change in LV dp/dt
+Sleep latency
+Am
+Liver weight
+T1/2 h/min
+HCR
+dp/dt(max)
+Approx. lethal dose
+Erythema induction
+Deoxyribose degradation
+Vbeta
+CTF
+Dose/ml
+Binding constant
+Conversion
+No. positive cases/tested
+Reduction in TG
+Onset for sleep, min
+Terminal elimination t1/2
+No. of circlings
+Gross morphology
+ICA
+No. of lung lesions
+CTS
+deltaA
+ED50 ratio
+Velocity
+Drug response
+GH peak
+Max lowering MABP
+Total protein
+Kdiss
+Irreversible binding
+APA
+Delta APD95
+Enhancement
+Log K
+ECAR
+Interferon response
+ED1.5
+Feed efficiency
+Rel max
+k2/KI
+PS
+Serum conc
+C50g
+Midpoint dose
+Biological activity
+Log concentration
+Total binding inhibited
+BK
+Cure rate
+nHill
+Amylase stimulation
+Initial blood pressure
+Degree of cross resistance
+IC60
+Mean increased life span
+HbS solubilized
+Delta/kappa
+Oral activity
+Cell proliferation
+IS/AAR
+Specificity
+Increase in IC50
+Ks
+Net accumulation
+SD200
+Ovulating rats
+Sni
+Survivors at day 28
+No. of dead animals
+Iron output
+Activity (umol/g.of liver 75.min)
+Cures@ 20mg/kg
+Inhibitory ratio
+CAT activity
+AI50
+CFC20
+Decrease in the QA interval
+Primary response
+Residual secretion
+Ki 0.5
+Iron mobilized
+DD
+GSH-Px activity
+Day of vaginal opening
+P7.4
+V1
+Tubulin polymerization ratio
+Adjuvant effect
+Change in Cl- current
+Ke
+Thr uptake
+Log MrI
+rel T
+Min ED
+Delta IC
+%hepatic blood flow
+grade
+Infected
+ISC
+Log KA
+HED
+Median
+2PT
+ID80
+ID/brain
+E/Emax
+kin
+Cholestrol levels
+Triglycerides
+pFe3
+Oxytocic activity
+[LDH]max
+Injected (dose/g)
+Cmax
+apE
+Histopathology
+pEC0.5,diss
+Delta MA
+Bronchoalveolar lavages
+BPR
+Bmax
+BT
+Tracer
+pKred
+ED Arec
+pIC35
+Of rats turning
+Permeability
+% of NO release
+Log 1/MMIC
+Emetic episodes
+30 day survival/total
+Death dose
+dP/dt20
+ADD
+Relative maximum
+Impaired
+Collapse time
+KIs
+ID50 mg/kg
+HVA
+AG80
+Viable cells
+No. of animals protected/animals tested
+Kuncat
+2aPTT
+pWeight change
+Fever response
+Net turns/min
+Fmax
+Leishmanicidal activity
+Cytocidal activity
+Saftey margin
+Activity index
+MID
+IC90 mutant/IC90 WT
+Analgesic activity
+Rate of decomposition
+AERP
+Extraction
+Inhibitory rate
+Delta HR
+AAC
+Infection score
+KOH
+Log potency ratio
+Fold activation
+Reduced BP
+Duration time
+Lethal toxicity
+IVP
+Max dV/dt
+K bind
+PKb
+ED200
+1/kmax
+GI
+Decrease of SBP
+Colony_count
+Binding potency
+Stain index
+Increase in blood pressure (P/R)
+Protective ratio
+Lipophilicity
+Tumour_[5-FU]
+log10cfu/day
+Survival extension
+Differentiated cells
+Metabolic rate
+Log I50
+Co
+clogP-logP
+Log cell kill
+Fecal recovery
+Max uterine weight
+PLT
+LC100
+GS
+DOSE
+Kiso
+Ca2+ reduction
+Max enhancement
+Change in temparature
+Plasma total cholesterol
+Ki(1.8x10e-11)
+2-DG uptake stimulation
+Relative protection
+fCmin
+Directly measured thickness
+Complex_formation
+PP2A Selectivity
+Cmedia
+Specific Displacement
+Mean graft survival
+Analgesic efficacy compared to morphine
+Oligo shifted
+Rate change
+Plasma content
+Eudismic ratio
+Logit_p(conc)
+Activity regained
+Kr
+Apoptotic activity
+Radiation prot
+Tolerance
+Physical dependence capacity
+Kinetic constant
+Myoblast with parasites
+N
+pI50
+Change
+Tumor weight
+Total radioactivity
+K+ Ion content
+Fluorescence Intensity
+ID50
+Relative value
+Level of cGMP
+Urine/bile
+DLS Concentration
+PL-017 shift
+LED
+KD'
+Antagonist potency
+CPE50
+Intrinsic
+Anti-arhythmic
+Behavioral response
+DHP-I stability
+Change in MAP
+f %t > MIC
+Tumor/liver ratio
+LD30
+C
+Cured/Infected
+Erythema
+Ambulation score
+pKa4
+Tt
+Excreted glucose
+Tumor volume
+-Log Ki
+Receptor binding
+NOHA
+pKiH
+pKP
+Limiting t1/2
+Vagus
+Clast
+CC20
+Mean survival
+Glucose utilization
+pTD50
+Km
+k-2
+Plasma-E2 concentration
+Kpol
+Log PNalk
+Neostigmine reversal
+pA2 app
+Erosions
+Decrease in activity
+Radioactive constituents
+No. of lung colonies
+Negation
+TCS50
+Block time
+Time after dose
+Protection index
+Transporter deg rate const (k)
+No. protected/tested
+GST activity
+Cardiac frequency
+Dependency
+S/CX Ratio
+SGPT activity
+LV dp/dt
+REC
+RNA fraction
+FR50
+Relative Potency Ratio
+No. of platelets
+WBC
+log Pe
+Rats turning
+2x aPTT
+Excreted
+Fold selectivity
+Progressed tumors
+Molarity
+Cure
+Amount of metabolite
+Koff
+No. of cured
+KBp
+Mortality ratio
+T/C @ 20mg/kg
+Suppressive dose
+No. of living cells
+TI rating
+TID20
+Protective activity
+Thromboxane B2 level
+Optimal dose
+kAH
+Log Pmic
+HSF release
+Translation
+d50
+Zone diameter
+Esc loss
+ED1/3
+I28
+Hepatic cholesterol
+Reversal activity
+TG100
+Relative lipophilicity
+Alkylating activity
+Estrogenic effect
+Log 10 LC50
+Average weight change
+Endosteal eroded surface
+E/Eref
+C10 N2
+Cardio selectivity
+EMax
+Improved
+Max reduction
+BPI
+Selective index
+Liver TG
+pKi ratio
+Ip
+ki/Ki
+([I]/[S]0.5)
+Kreact
+DNA binding
+Delta weight
+log10CFU/ml/day
+-Log activity
+No. of killed or paralyzed
+Antibody stimulation
+DNA fragmentation
+G0/G1
+SF
+Biodistribution
+K21
+Ouabain dose
+ClM
+Rat fertility
+Infarct volume
+[3H]-uptake
+Exp Inhib Constant
+Remaining compound
+T/V
+Urinary level
+Cortical infarct volume
+Na+ ratio
+Log CFU
+Change in body temperature
+FT mean score
+Change in heart rate
+k-1 app
+Relative Bioavailability
+I/C
+Dopamine level
+Maxi-K current
+Survivals / total
+Tumor/blood ratio
+LM
+Animals affected
+Relative efficiency
+Inhibitory binding
+Vdss(app)
+Vocalization time
+Reactors/Test group
+Serum stability
+Response
+P ABC
+REP
+Mean LAF
+CLIP
+Pc
+Heart weight absolute
+Possible response
+Active dose
+Log 1/ED50
+Mean value
+Pgp AbA/analogue ratio
+LDH
+Growth of cells
+PF
+DBP change
+Selectivity ratio S3/1
+Radioactivity level
+IA
+No. of mice dead/day died
+CLH
+Decrease RVR
+Cell size
+Elevation of threshold
+Migration index
+Erythroid induction
+Writhes
+MTX equivalent
+LogP app
+K app x10e-7
+Actvity
+No. of spikes
+CFR rating
+Serum creatinine
+Morbidity
+Pmax
+CF
+Duration
+Fu
+Toxicity ratio
+Average lesion score
+INH
+Onset
+Rolipram activity
+RBA2
+Glutathione levels
+Ki ratio
+X
+K3
+A ctivity
+Urinary glucose excretion
+Latency
+Systemic effect
+increase in RFU
+Supression
+Glycine antagonism
+DC50
+Log 1/D125 (L1210) (mM kg-1)
+GH AUC 0-180
+CI
+pEC50 diss
+Control vomits
+K-1 decrease
+Acid secretion
+delta logP
+Cell number
+Prolonged QT
+CO
+Initial inhibition
+Change in myocardial conduction
+Extraction ratio
+TG
+10E2 K1
+LD/ED80
+Uterus to blood ratio
+Covalent binding
+Relative ODN uptake
+Max reduction in mean arterial pressure
+Selectivity quotient
+Anabolic activity
+Excretion Na+
+[3H] concentration
+1/n
+No. of mice
+GMMIC
+DA/NE ratio
+Sterility
+Max agonist activity
+No. of axonal points
+Specific index
+TGD
+MDL
+Ka app
+Loss of activity
+Dissociation constant
+Prolactin release rate
+Receptor state
+Mean excretion of K+
+Free fraction
+Log Palk
+logKd
+Injection dose/g
+HYPO
+Toxicity (deaths)
+Time of licking
+IH50
+FPT msad
+kONOO-
+Log PI
+NEA
+ERP3
+Radiation equivalent
+Max/average
+p alphaKa
+H ABC
+GR activity
+NaCl concentration
+Agonistic activity
+Reduction in AUC
+Ratio TD50/ED50
+Plasma glucose level
+Of HDL-C
+2DG uptake
+No. of protected animals/total
+scMet
+Time to peak tension
+GABA enhancement
+Change in cAMP
+fc max
+RBA ratio
+Serum Ca2+
+Reduction in heart rate
+MFC99
+Activity remaining
+Cleavage rate
+Mean rate constant
+Max intensity
+LD20
+Median life span
+Experimental DPM
+MTD50
+Max IOP reduction
+pGI50
+Lesion_Clearance
+Unchanged
+TPR
+IC95
+Cells arrested
+Intrinsic vasorelaxation
+ln Kp
+DNA cleavage
+Log EC50(uM)
+Plasma_[5-FU]
+Log k' w
+PFC/splleen
+Infectedmosquitoes
+TMED
+Mean activity counts
+delta pIC50 wt-mutant
+BG reduction
+rel k
+Exploratory activity
+rel ko
+Change in rat blood sugar
+MIC90
+P50c
+Analgesic effect
+Spermatogenic index
+Incorporation
+Degree of resistance
+L
+Vmax
+Acute electroshock activity
+Kcat
+Negative chronotropic activity
+Turns/first hour
+Wet weight of tissue
+Mechanistic reference
+UD
+EC125
+K Tm
+Phospholipidosis
+-Log ID50
+delta Log P
+Revertants/plate
+Protective index
+PD 50
+LT50
+Liphophilicity
+Mean increase in survival
+GPGB tension
+LogD7.4
+LL
+Relative inhibition index
+Lesion index
+pKa app
+MAT
+LBF
+FBF
+k'/k'+1
+SRR
+Serum corticosterone
+Average sample intake
+Log Kill
+Desensitisation
+Log cfu/g
+Serum T4
+Ext AUC
+Residual activity
+pLADY
+Proliferation
+Q
+Skin reaction
+Cytotoxicity index
+MND
+CT-luci TAR
+TVR
+ROR
+Endosteal mineralizing surface
+TF/P
+-Delta G obs
+Survivors / animals tested
+K aff
+Turns/1st
+MED99
+Surface involvement
+VSV
+GI50/EC50
+CL_biliary
+Pt
+Delta FC
+Duration of immobility
+RA
+Penetration
+Fall
+K diss
+Fmut
+Unchanged NDEA
+Acceptor activity
+LAD
+A-selectivity
+No. of foci per dish
+NOEC
+C50k
+Total infarct volume
+S/T
+NM
+Nuclear cataract
+Delta T
+Distribution of radioactivity
+Weight gain
+A/B ratio
+K A
+Pigment binding
+EFF+/-SD
+ED90
+Inhibitory concentration
+% nucleotide present
+Protected/tested
+Peak inhibition
+Urine osmolality
+-Log EC50
+Profile
+APD70
+RAC app
+Log TCI
+IC33
+Contractile force
+Fold IC50
+CTS increase
+EC
+Rel brain exposure
+Growth delay (T-C/C)
+GI50
+ID84
+KNBP
+PCY
+LDH50
+Lactose production
+Cytoplasmic vacuolization
+Fez
+AUG
+Hmax
+Femur weight
+AUC c
+GTPase Activity
+Ca2+ excretion
+LD
+Kb
+Receptor occupancy
+Krelative
+Augmentation
+RL
+Loss of affinity
+KOX
+Turns
+CNS activity
+Swelling
+Hypoglycemic
+Block of activity
+NR
+5-HTP accumulation
+Selectivity factor
+Max Achievable Bioavailability
+ADP formation
+Alpha-adrenolytic activity
+Sp Max
+N/T
+pKa6
+Inhibition zone
+Relative luciferase response
+B(DPB)
+No. of animals alive
+ILS days
+Median day of death
+88Y-serum
+Ep2/2
+Blood Pressure
+EIC50
+Delta H-V
+Group performance time
+-Log concentration
+Punch weight/MPO activity
+C1.6
+ID25
+Tail vein toxicity
+Plasma level
+Amount of Ouabain used
+GI50 ratio
+pEC90
+Time
+Ke ratio
+Corr
+NT
+ILA
+Resowing
+UD50
+Tubulin polymerization
+Agonist activity
+CV
+Exudate
+pI
+Initial heart rate
+K 0.5
+Antifungal activity
+Blockade
+Hammett constant
+Boron incorporation
+cAMP content
+MSIC
+CV dose
+GHI
+GTP-gammaS Index
+Weight gain or loss
+pRA2
+No. of cured mice
+Number
+C120
+Decrease in CVR
+Therapeutic index
+RM
+Protective Index
+Uptake/Binding ratio
+Aggregate
+Ct
+Mean number of parasites
+Absolute ratio
+No. of retches
+Active culture
+Alpha Ki
+Fraction experiencing seizures
+OD max
+Sign free dose
+SD50
+Relative metabolic stability
+DUR
+cholesterol level
+Ki app
+Log KZ
+Change in blood pressure
+Hydrophobicity index
+PD' 2
+Tm
+AWC
+Total liver weight
+pka
+SER
+Edema inhibition
+Alpha
+PDK
+Average dose per organ
+Bitter taste intensity
+rIC50
+Concentration of Cl-
+-Log Kdiss
+Log Poct C
+HSA shift
+Thylpositive cells/spleen
+Heme loss
+Property
+Log 1/I50
+Relative concentration
+pkB
+ECmax
+MFED
+Inhibition (alpha = 0.01)
+ID16
+Methemoglobin
+Decrease in hypothalamus norepinephrine
+DFMBMD
+Average IOP
+GM
+Efficacy index
+ED50 mg/animal/day
+MP
+Ki app (inact)
+pC
+Mean urine volume
+Survivors at day 15
+Water intake
+Cell no
+Total number of entries
+Change in respiratory frequency
+MES ED50
+Plasma concentration
+Increase in MAP
+MPC4
+Change in conflict
+Animals dead
+Absolute
+Average activity
+Catalase rate
+Bioavailability Increase
+Relative substrate velocity
+Correlation coefficient
+CPCC
+k3/Ki
+Relative Kd
+AT1 affinity
+Hypothermic effect
+duration of action
+MRT
+Total binding
+Hematotoxicity
+ClT
+Tissue level
+T/C (survival)
+IVR
+Poct
+Log 1/GI50
+% binding
+Blood pressure
+Rate of death
+Plasma Ca2+
+K-1
+Hill slope
+Incidence_count
+Change of body temperature
+Complete spontaneous reversal
+Body temperature drop
+CE37
+Serum creatinine conc
+Ratio LD50/EC50
+Vc
+CTC50
+Tissue weight
+Relative agonist activity
+Tumor size
+Cellular concentration
+Minimum single dose
+ILS (mg/kg)
+Picoequivalents of amine/10e6 cells
+AHV
+PPB
+No. of vomiting episodes
+Inhibition (at concentration M)
+DOPAC
+Affected animals
+TPE
+Kis
+Control of P-450 marker
+Kidney VDR
+Bicarbonate level
+Serosal/Mucosal Ca
+Estrogenic potency
+Antibody response
+Tumor number
+pEC15
+BWD
+pK
+Inhibition of increase in weight
+Reversing activity
+Cmax_tumor
+Occ90
+T1/2 regen
+MDS
+Activ ity
+Reduction
+C24h
+A2 selectivity
+SH level
+Cures@ 10mg/kg
+Total excretion
+Relativity
+Max delta HR
+Exclusion parameter
+Caspase induction
+AUEC
+Kif
+Kds
+Tonic seizures
+Ca2+ antagonistic activity
+IC10
+Control level
+Log rate
+T/C corr
+Amount incorporated
+PGE2 Level
+Resistance factor
+RAC
+ED300
+Max protective effect
+No. of mice without tumors
+Kbapp
+CITH
+Inhibitory effect
+Survivors alive/total
+Relative ability
+CC90
+Ya
+Diffusion analysis
+Brain level
+Non-HDL-C
+Positive paws
+Terminal t1/2
+Toxicity zone
+Tissue/Blood ratio
+PKB
+Peak rhGH
+T>MIC
+Binding competition
+Ac
+pCB50
+CDOG
+Average proportion
+Polyamine content
+Change in reaction time
+KPCB
+RC10
+Log 1/conc (mM min-1 L-1)
+CC50%
+RSA
+GTP shift
+ERP1
+Hind-paw lick latency time
+Gastriculcer index
+Log DSF
+ED30
+Kw
+pRatio
+Transport rate
+Virus inactivation
+SSC
+EC1.5
+GTP-gammaS index
+Time to righting
+ED
+Social interaction
+Peak effect time
+Low
+Stomach
+HR
+Max fall
+Mice
+FR
+[ALP]max
+Equieffective dose
+Complex formation
+In/Fi
+Growth rate
+Activity Factor
+Relative permiability
+PD50
+Anti-emetic
+GII50
+Non-specific binding
+Max displacement
+Min ID
+APD95
+Binding stoichiometry
+Fold stimulation
+OT
+No. cured
+Ability
+G Index
+Glucose rise
+DA response
+Ratio
+Parent compound
+Log [MrI]
+Relative Fluorescent Unit
+FIC50
+ARP
+Cz
+Change in weight
+S/N
+Residual insulin secretion
+AUPAP
+Cardiotoxicity
+Treated
+Amount delivered
+Tension
+Substrate
+Absolute turn angular/3 min
+Diazepam antagonism
+Mean peak APTT
+Log Pdod N
+k obs / concentration
+Log cfu/g of tissue
+Increase in heart rate
+Spontaneous motor activity
+Logit bioavailability
+Increase in dP/dtmax
+K'a
+kOH-
+V2
+SR
+Mean response/min
+Boron concentration
+Irritation
+Average weight
+EDMES(2.5)
+cpm/million cells
+AUC ED50
+Ccellular
+IC40
+Change in TPR
+RIA
+Log [-10]
+IG50
+Organ weight ratio
+Cyclase stimulation
+Insulin-sensitizing activity
+C90
+LD10
+CPP
+Others
+Cysteine reaction
+K+2/Ki
+RV
+Alpha c
+logBB
+Relative differentiating activity
+fm
+Serum prolactin level
+K cat
+I/IC50
+kc
+Cell protein in untreated control
+KiH
+Volume of urine
+Selectivity ratio
+Average No. of metastasis
+FC50
+Static tumors
+Inhibition of damage
+MCT
+Hgb levels
+Incidence of RBC decrease
+Left atrial pressure
+Paw edema
+QA
+Log 1/ID75 (uM L-1)
+k obs / 1
+Vel rem
+No. of animals with liver necrosis
+UV
+IC50 ratio
+Radioactivity in urine
+Myristoylpeptide
+CAR
+Hepatic Extraction ratio
+Treatment
+Reaction rate
+Blockage
+ALAT levels
+Toxic level
+Heart weight
+Ratio AUC
+CD
+ID30
+NMDA effect
+Emin
+Rice stem length
+Mean
+Tick action
+LD100
+Kun
+SD90
+G-protein activation
+IUP AD50
+KA
+Body weight change
+Change in response
+Na+ ion content
+MPR
+Control retches
+Mean ulcer index
+MIC100
+Mean injected dose/g
+Amount of Acotine used
+Plasma GH
+SS
+SDS
+Basal GH
+MBC
+MAC
+pA2-pA10
+Blood urea nitrogen
+C5a max
+Log 1/ratio
+MUD
+pKa E2
+NTD50
+Melanotropic potency
+Day 9-RTV
+NAD
+Remaining rate
+kHOX
+Amnesia reversal
+AUMC
+Maximum response
+Change of size
+Combination_index
+Mitogenic effect
+REM latency
+Net body weight delta
+Mean free plasma concentration
+Total iron output
+Degradation
+Body temp change
+I ABC
+FRP at 10microM
+pAD
+Antiamnesic activity
+GI tolerance
+Second order
+Diet
+Max delta MABP
+AHA
+RBA1
+Axonal regeneration rate
+CMT
+RE
+T1/2
+Antifertility potency
+Relative bioavailability
+Weight increase
+DNA cleavage activity
+k'o
+APTT
+Mean log LC50
+eduction
+Total DPM
+CL_Ratio
+Log kon
+Mineralizing apposition rate
+Potentation
+Scavenging Activity
+Mean blood pressure
+No. of rats
+Vomiting frequency
+Dose/g of tissue
+PVCs
+Delta C urate / delta C insulin
+Delta ED50
+Mean KD
+ED5
+Growth
+Ratio of depolarizing activity
+Rat turning
+NADH oxidn
+Delta Vmax
+AI
+Binding site fraction
+Amount of cross-linked protein
+Monoamine level
+ILS30
+SP
+DR2
+Long-term survivors
+A0
+nH
+Decrease in tone
+NADH oxidized
+logCMC
+Transcriptional activity
+Spread
+Pcaco2
+Light transmission
+Eggs
+Conduction
+Log Pe,max
+rK
+Resistance ratio
+Toxicity
+Total turnings
+C120/ED50
+Vd/F
+ED30 DBP
+Hg
+pKa AN
+MAP
+CLogD
+pKic
+Khydrol
+Caco-2 Papp
+AE score
+k''
+SI
+Inactivation
+O2 production
+Sterilized
+Log 1/ISA
+-Log KD50
+delta Log Doct-dod 7.4
+EC50 iGC
+Distribution percent
+BA
+Temperature
+ID (per g of tissue)
+Activity scale
+Average peak Concn
+Reduction of IOP
+Max weight loss
+fc max/MIC
+-ln (MIC)
+No. of Colony forming Units
+30 day survivors
+Log 1/EC50
+Specific binding
+Kina
+AD50
+NLCK
+MBC50
+Pka
+pK1a
+FICI
+logCC50
+CC10
+P50d
+Plasma levels
+Survival treated
+RPE
+Effllux
+Tail flick
+REA
+IOP
+Acute toxicity
+Ctt2
+Max jumping rate
+Parasite suppression
+Tmin
+Cardiac output
+Organ weight
+G index
+Acute tolerability
+Motor activity
+Cytotoxicity IC50
+LH level
+Abortion
+Bmax1
+cAMP increase
+Nature
+No. of mice survived
+kik0/Ki
+Lipoprotein level
+IC30
+Catalyptic action
+Resorption
+K/10e4
+TO
+k cat/Ki
+HR(delta)
+Blood volume
+GR50
+EU
+BQL
+Residual peptide
+k2
+Reduction in arterial blood pressure
+[35S] TBPS shift
+ID/thyroid
+Concentration_plasma
+Stimulation index
+Hydrogen peroxide degradation
+Cytokine induction
+DAP
+Drug mol/base pair
+No. protected/ No.dosed
+EC75
+I80
+Basal inhibition
+TMP.decrease
+Lactate produced
+ILS
+Stimulations
+Cmax normalised
+CA activity
+CL(%Q)
+Volume distribution
+No. of cultures active/total
+Total tritium
+MPA
+kirr
+Anesthesia duration
+food intake
+Monomer
+ATP content
+Mean arterial blood pressure
+NBT positive cells
+sigmaL
+2x aPPT
+Ki/Km
+inhibition of control
+Brdu positive
+T-cell binding
+IR
+Prolactin release
+Atttacks
+Vm
+CCh
+Repression
+alkaline phosphatase activity
+Ref I oncostatic index
+Vc/F
+Reduction in EOS count
+Log 1/IC50
+Max MBP
+Fluorescence
+pInhibition
+C100
+Max agonist response
+Rise HR
+Uptake value
+Vmax (uM)
+Potency Ratio
+Change in WBC
+Pressor activity
+TGIR
+Kgmax
+Potency
+Cytokinetic response
+E0
+FSC recovery
+HDL cholesterol
+Fraction
+Ratio CIC95/IC50
+DNA alkylation
+Fold shift
+K Bind
+Relative level
+Log 1/B.5
+FOC
+Mean no. colonies
+Log K1
+Brain conc
+Anticonvulsant activityAnticonvulsant activity
+Contraction
+Pressure response
+Ulceration
+Alkylation
+pKapp
+Arthritic score
+Halucinogenic activity
+Control survivals/total
+[Ca2+] variation
+MEC
+Oxidation
+GHmax
+Cardiac force
+Adhesion
+ED95
+Delta HDL
+1/kobsd-ka
+CC30
+k
+Reduction factor
+K NBP
+Locomotor
+TDS
+HDL
+k1
+Residual insulin release
+Relative florescence
+Sleeping time
+Dose interval
+IC>80
+Antiviral effect
+MAPD90
+Antiuterotropic effect
+Hyperactivity
+LogD
+Increase in dP/dt max
+Cell
+Delta pCa50
+Optimal dosage
+Change from control
+Increase in HR
+Occlusion time
+Log Ka
+Decrease in Systolic blood pressure
+ED150
+Initial concentration
+TMSW
+Cures
+Acute TI
+DDT msad
+Time to onset
+No. active
+RTV
+No. of shocks
+Cellular growth
+Log potency
+UB
+Amount of [3H]thymidine
+Relative rate of hydrolysis
+Increase contractility
+Approx. pKa
+Mean survival time
+ED40
+Relative activity
+MSC
+Relative response
+Media area
+KE
+Off-rate
+LAL test
+Rats blocked
+Cytostatic activity
+Fg
+ST
+Metabolite level
+Plasma half-life
+Antagonist activity
+No. partial
+ROI
+Serum concentration
+Max contractility
+Induced convulsion
+DNA relaxation
+dp/dt
+Plasma clearance
+Alloste ic enhan er (AE)
+Intima area
+Susceptibility
+ALP activity
+ST elevation
+SWo
+k_obs
+Irreversibility
+p10 MIC
+K+2
+PD'2
+Distribution of excreted Fe
+AUBC
+pCB
+Kf
+Permeated
+T/C untreated
+Dose/organ
+Topoisomerase-I activity
+Dobs
+Days
+Csat
+Influx Ki
+IC200
+k2/Ks
+EC200
+kmax/KS
+Postjunctional antagonist potency
+Synergistic effect
+Efficacy
+RatioGI50
+pKa,2
+Ki ss
+Increase in DPM
+Time constant T4
+ka/Ki
+Clonazepam
+CMR
+Anticonflict activity
+Urine volume
+Extension
+Cures/total
+TTC
+Variation/Control
+MA
+Binding selectivity
+Behavioral score
+Taste
+Metabolism
+SB
+Log D50
+MRC
+FSC
+Median day of survival
+Plasma selectivity
+Mutagenicity
+K calc
+NSB
+Rel Max FI
+Glucuronidation
+AUC units
+Mean life extension
+Lysis diameter
+P (Ei)
+Uterotropic effect
+IE50
+Log Dmax
+Grip score
+PB
+Change in tumor area
+Ka'
+Effective molarity
+2X PT
+Keq
+ED80
+Cell survival
+Volume of ascrit fluid
+Bone mineral density
+Ataxia
+MCC
+deltalog10CFU
+c.v
+Saline control
+No. cured/total
+Infusion rate
+-Log I50
+KCS, APP
+IE
+Dmax
+Shift
+No. of pos rxns
+Protein content
+CSF levels
+AUC_ratio
+Selective toxicity
+Antipapilloma activity
+TC90
+logFu
+Duration of block
+EC37
+-logKa
+Tumor area
+GOF
+Relative PT
+Lesion length
+Duration of increase in SLA
+Life span
+LogD6.5
+EDP
+Ileal activity
+Therapeutic dose
+MTD/ TGI50
+Slope
+MTD/2
+Accumulation coefficient
+36Cl- uptake
+LC99
+CLT
+Absorption
+Permeability limited
+Survivors at day 9
+Delta MST
+Plasma Insulin
+EF90
+Periosteal mineralizing surface
+Top1 cleavage activity
+Reduction of heart rate
+B50
+Infected erythrocytes
+Shutdown time
+Decrease in pressure
+Body weight
+Relative uterine weight
+Intrinsic activity
+CC50/EC50
+CTE
+Onset of action
+R/S ratio
+Enantiomeric composition
+K0.5
+Analgesic response
+Taste character
+Abolition
+MPE50
+Repolarization time
+Mean time to seizure
+RBA data
+Neutrophils
+Susceptibilty Ratio (Liver/Intestine)
+pK1
+Hemispheres reduction
+Urine
+Net log change in tumor burden
+TVI
+Plasma corticosterone
+Relative Vmax/Km
+Anticonvulsant Activity
+Contragestational activity
+pK4
+pK1d
+Therapeutic effect
+Inhibition constant
+Protected
+Clp
+Log effect
+Induction
+OD(540nm)
+Hill coefficient
+IAr
+Normalization
+Treated cells
+Activity_index
+TI50
+pKB
+Intraperitoneal score
+AC50
+k x10e3
+MIC95
+Mean index
+MAO deamination
+CD50
+Epileptogenicity
+Max increase in coronary flow
+Gastric toxicity
+Increase in ear thickness
+Transacylation rate
+Relative Vmax
+Average tumor weight
+Log CDGH
+In vivo duration
+Relative binding affinity
+BMD
+IZ
+IC12
+QTc delta
+Delta Gm
+Cytoprotective effect
+K ass app
+Regression response
+Ka1
+Of viability
+-Log IC25
+Recovery time
+p24 synthesis
+No. of positive animals
+Optimal concentration
+Horizontal activity
+Kd1
+Unreacted drug
+ECAUC0.2
+Relative phosphorylation
+Range of death
+CFU/ml
+No. of rats displaying DA syndrome
+Fraction change
+VDR affinity
+Parent remaining at time
+Verapamil index
+Tetramer
+APPTT
+Rate of phosphorylation
+Taq inhibition
+NAD+ level
+Stroke work
+logD
+Amax
+C12h
+Kin
+TT
+Vascular accumulation ratio
+Gastric score
+Change of area
+IC20
+L/CE
+Initial average tumor weight
+Log10 cfu
+GFR
+Median survival
+pD2 app
+Relative effect
+Time of half inactivation
+Control S/T
+No. of survivals
+Peak GH
+Nucleic acids
+Subcut score
+RD100
+AP50
+ER/PR
+EMR
+Log P'
+ALT.
+Maximal decrease in IOP
+Stimulation
+Occupancy
+k cat
+RRI
+HCMV yield reduction
+Formation of erythema
+Max CF response
+Mortality threshold
+RatioAUC/MIC
+khydr
+Highest active dose
+Vasopressor activity
+Toxicity day survivors
+Plasma cholesterol
+Control current
+Relative inhibition
+Perturbations
+DA stim
+Log 1/EDMES(2.5)
+Growth delay
+Relative t1/2
+fAUC/MIC
+CR2
+Log K2
+CS index
+Time to offset
+MBIC
+P50C
+Survival median
+TBPS shift
+Log sweet/bitter
+Paw volume
+Free
+APD75
+K6
+Kin x10e3
+pEC100
+Cell cycle
+Max reversing rate
+Relative stability
+k2/Ki
+IC2x
+PRCF
+TC50
+AUC
+Vmax rel
+Relative amplitude
+BW
+log10 TCID50
+IT100
+Rate response
+Range of deaths
+RT activity
+HV interval
+Change non HDL-C
+Neurotoxicity
+KR
+Cell growth
+Mean day
+MBEC
+Relative Potency
+CLogP
+AE activity
+Fold_increase
+No. of entries
+Effect on polyamine pools
+Body temp drop
+Polyamine
+KbS
+Max fold increase
+Delta TC
+Anti-infectious effect
+Onset time
+TMED50
+Increase in dP/dTmax
+Speed of performance
+AED
+CBF Ratio
+Animals with palpable tumor
+Ccontrol
+MIC50
+Removal
+IOP lowering
+Mortality number
+Affinity state 1
+Protonated
+Cholesterol Concentration
+BSR
+K H
+Topical dosage
+Activity ratio
+% dose
+Offset time
+Rf
+BP decrease
+mequiv of HCl
+Average bile flow
+P50
+ABC
+Rate constant (k)
+HDL-C change
+ND50
+Average
+Relative cytotoxicity
+Log Pn
+RIS
+Surviving fraction
+Glutathione
+Mean maximumtemp drop
+TPO
+Potency vs EKC
+Thyroid status
+Log geometric mean
+SC200
+Flea
+KT4
+Na
+Selectivity ratio S3/2
+Content of cell cycle
+IC50/[E]
+Convulsion threshold
+Total no. of turns
+Kd2
+Virus yield reduction
+No. of shocks accepted/5 min
+Max tolerated dose
+Antitumour activity
+MD
+Ca2+ serum
+Metabolic turnover
+PCA
+Mean day of death for total dead
+k3/ki
+Retches
+ID75
+CC
+Change in IC50
+BMF
+Eff
+MDA content
+Behavioral observation
+Expression
+Diameter
+Total lysis
+PFC
+Increase in life-span
+Immobility time
+LH
+Mean decrease
+Change of predose
+T50
+pKa_decrease
+Max score
+C20 FRP
+Relative activity of AChE
+Na+ excretion
+hSlo current
+Delta ERPc
+K cat/Kinact
+Ks/i
+Log IC50
+sigmaSH
+Change TC
+Histamine release
+ED15
+Change in systolic BP
+Immobility
+Residue fraction
+Adverse effect
+T-C
+Fabs
+ft1/2
+APD90
+Modulation factor
+Survival ratio
+RC50
+K HOX
+Clined screen test
+Body temperature
+HTD
+pD'2
+Max stimulation
+Log Pion
+Pregnancy index
+2x TG
+Log kill
+EF200
+Median survival day
+Uncut DNA
+NOL
+Palpha
+Body weight loss at nadir
+Average inhibition
+Log2 MIC
+Astrocyte reversal
+Log 1/LD50 (mM kg-1)
+CT10 ratio
+Spleen weight
+Activity MABP
+ED250
+Thymus weight change
+Cholesterol content
+Tritium release
+Tumor inhibition
+logSI
+Reduction of live worms
+Q1/2
+Ulcerative index
+DNA
+Delta coronary flow
+LogD5.5
+Transacetylation rate
+Oligo modified
+Average tumor volume
+deltaT
+RVR ED15
+Average ratio
+GI25
+Lowest effective concentration
+Delta latency time
+Excretion K+
+Response value
+KiAH
+STY seizure
+ED delta5
+No. of tumors/mouse
+Cl - current change
+Uterine wet weight
+Max aggregation response
+ASAT levels
+Skin scaling
+Acetylcholine release
+Competition factor
+GAG
+BGL
+pBBB
+Optimum T/C
+Capacity
+Distribution (dose/g)
+C5 min
+Consumption
+Loss
+Residual RR activity
+AUC glu
+Total cholesterol
+Peroxidase rate
+Kiuc
+AI recovery time
+Cell cycle analysis
+FPG correction
+Relative velocity
+Recovered in bile
+3D PSA
+MRP
+Latency to step through
+Degradation ratio
+IM
+Ratio ED50
+Mean IC70
+ED60
+Inhibition index
+Net log cell kill
+logPi
+Incidence
+Log CDQR
+Log SP
+MGC
+kaKr/kr
+k0
+-Log Kb
+log KOA
+RTW
+MPE
+Muscarinic agonist index
+Therapeutic ratio
+Uptake selectivity
+GI clearence
+GH
+ED50
+Average change in weight
+Molar content
+pMax
+Ki
+K12
+C10 air
+Max cAMP
+IN
+NG ratio
+BEI
+Amount of TNF-alpha
+HDL-C
+Delta P50
+ERH
+EC10x
+NC
+Dissociation rate constant
+Hypocotyl length
+Relative peroxidation
+Excretion Cl-
+COI
+Max T/C
+Rate of formation
+Generalization
+pEC50
+ED10
+MEC50
+VLDL
+PCoct
+Peak striatal uptake
+Inhibition over time
+[EA]
+ODC activity
+Survival days
+Time constant T3
+U osm
+Creatinine_CL
+No. of protected/tested
+Inhibitory activity ratio
+NI
+Formaldehyde
+Delta MABP
+Temperature change
+ILS (T/C)
+log K
+Log BB
+Increase in blood pressure
+Inhibitory index
+Increased
+KDs
+Log 1/ED40
+Group toxicity
+Inhibitory zone
+k2''
+ISA
+Ki' uncomp
+Remaining at 40 min
+K obs / s
+PI
+Control tumor volume
+kon
+Food
+Max BSR
+Anticonvulsant dose
+M-agonist index
+Kp
+D2 selectivity
+Time of peak action
+Foci/dish
+PHA
+MDR ratio
+TGI correlation coefficient
+Tlast
+MFI
+No. of pits/slice
+MDD
+OD
+Observed relaxivity
+Lactone production
+Compound in urine
+Kel
+Activit y
+logD7.5
+Observed log APA
+TLm
+tRNA peak exclusion
+Etopic beats
+Distribution coefficient
+Ratio of stimulation
+cAMP activity index
+Ratio (Ci/Ce)
+Cytostatic concentration
+TD50/ED50
+Blood level
+DNA photo-crosslinking
+Tumors with CR
+Kcat/Km
+Range of survival
+C2
+pGC50
+Erythema formation
+CT10
+Supressive effect
+K eff
+LD50 x 1/20
+Smax
+Fe removed
+ACAT activity
+Hx shift
+Microsomal stability
+Cl-
+Release
+FE
+Diuresis
+Log GTI
+Absorbance
+Zone reduction
+pKa value
+Antiviral index
+Min effective dose
+Ratio of distribution
+Palmitoyl-CoA oxid
+Antiviral activity
+I16
+PTD50
+VERP
+Cmax/Tmax
+Log [-7]
+R+V
+Log [-8]
+Locomotion
+EII50
+Cell protein
+Change of weight
+Feces
+Cytocidal effect
+TCID50
+Parasite_Clearance_time
+FRP
+CD90
+Average GI50
+pKb
+ko
+ED50 mg/kg
+I/M ratio
+Relative rate
+Kh
+Rate of rotation
+Pleural volume
+Accumulated counts/30
+Ip score
+IC50L
+C24
+Log Ko/w
+No. of mice receovered
+Cl
+-Log 1/Kb
+MTD ratio
+KiA
+Kaliuretic activity
+MF
+GD200 [d]
+Day 22-T/C
+Delta mV
+Discrimination ratio
+Net grain counts
+Anticancer activity
+KiL
+Arrhythmia score
+Biodistribution ratio
+Change from Control (LV dp/dt)
+Macrophage activation
+Retraction time
+DA utilization
+Max. activation
+Sigmap
+C10 air/C10 N2
+BNa
+max Delta Vmax
+Carbamoylating activity
+%R
+Oral duration
+Dose
+Oncostatic index
+Efficiency
+Critical concentration
+Cytotoxicity
+deltalog10CFU/ml
+Days to tumor doubling
+Initial activity
+Fold induction
+DNA single strand breaks
+Change in blood glucose
+Ka
+Disease control
+Scavenging activity
+pNF
+Reduction in respiratory volume
+MCHC
+Subcutaneous score
+Retention ratio
+Synergy with methicillin
+Glucose lowering ob/ob dose

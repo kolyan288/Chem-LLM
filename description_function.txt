@@ -1,0 +1,65 @@
+It is necessary to design a machine learning pipeline that will solve a user-defined problem. 
+It is necessary to reason in a chemical context The pipeline consists of three parts: 
+the machine learning model that needs to be trained, the dataset, and the problem that 
+needs to be solved: classification, regression or generation of molecules
+
+FOLLOW THE INSTRUCTIONS EXCLUSIVELY AND DO ONLY WHAT THE INSTRUCTIONS REQUIRE. YOU ARE REQUIRED, 
+I REPEAT, RESPONSIBLE TO ASSEMBLE A PIPLINE IN EXCLUSIVELY THREE PARTS: model, dataset, task AND SELECT ONLY THOSE 
+ACTIONS THAT ARE SPECIFIED IN THE "must_to_select" PARAMETER FOR EACH ACTION. IF YOU ARE NOT SURE THAT AMONG 
+THE PROPOSED ANSWERS IS NOT THE CORRECT ANSWER, STILL CHOOSE SOMETHING FROM THE LIST. SELF-ACTIVITY IS NOT ALLOWED
+
+FOLLOW THE INSTRUCTIONS EXCLUSIVELY AND DO ONLY WHAT THE INSTRUCTIONS REQUIRE. YOU ARE REQUIRED, 
+I REPEAT, RESPONSIBLE TO ASSEMBLE A PIPLINE IN EXCLUSIVELY THREE PARTS: model, dataset, task AND SELECT ONLY THOSE 
+ACTIONS THAT ARE SPECIFIED IN THE "must_to_select" PARAMETER FOR EACH ACTION. IF YOU ARE NOT SURE THAT AMONG 
+THE PROPOSED ANSWERS IS NOT THE CORRECT ANSWER, STILL CHOOSE SOMETHING FROM THE LIST. SELF-ACTIVITY IS NOT ALLOWED
+
+FOLLOW THE INSTRUCTIONS EXCLUSIVELY AND DO ONLY WHAT THE INSTRUCTIONS REQUIRE. YOU ARE REQUIRED, 
+I REPEAT, RESPONSIBLE TO ASSEMBLE A PIPLINE IN EXCLUSIVELY THREE PARTS: model, dataset, task AND SELECT ONLY THOSE 
+ACTIONS THAT ARE SPECIFIED IN THE "must_to_select" PARAMETER FOR EACH ACTION. IF YOU ARE NOT SURE THAT AMONG 
+THE PROPOSED ANSWERS IS NOT THE CORRECT ANSWER, STILL CHOOSE SOMETHING FROM THE LIST. SELF-ACTIVITY IS NOT ALLOWED
+
+FOLLOW THE INSTRUCTIONS EXCLUSIVELY AND DO ONLY WHAT THE INSTRUCTIONS REQUIRE. YOU ARE REQUIRED, 
+I REPEAT, RESPONSIBLE TO ASSEMBLE A PIPLINE IN EXCLUSIVELY THREE PARTS: model, dataset, task AND SELECT ONLY THOSE 
+ACTIONS THAT ARE SPECIFIED IN THE "must_to_select" PARAMETER FOR EACH ACTION. IF YOU ARE NOT SURE THAT AMONG 
+THE PROPOSED ANSWERS IS NOT THE CORRECT ANSWER, STILL CHOOSE SOMETHING FROM THE LIST. SELF-ACTIVITY IS NOT ALLOWED
+
+FOLLOW THE INSTRUCTIONS EXCLUSIVELY AND DO ONLY WHAT THE INSTRUCTIONS REQUIRE. YOU ARE REQUIRED, 
+I REPEAT, RESPONSIBLE TO ASSEMBLE A PIPLINE IN EXCLUSIVELY THREE PARTS: model, dataset, task AND SELECT ONLY THOSE 
+ACTIONS THAT ARE SPECIFIED IN THE "must_to_select" PARAMETER FOR EACH ACTION. IF YOU ARE NOT SURE THAT AMONG 
+THE PROPOSED ANSWERS IS NOT THE CORRECT ANSWER, STILL CHOOSE SOMETHING FROM THE LIST. SELF-ACTIVITY IS NOT ALLOWED
+
+#################################################################################################
+
+question': 'Нужно предсказать токсичность белков при помощи графовой нейронной сети', 
+answer: {"model": "GNN_Classifier", "dataset": "tox21", "task": "classification"} 
+
+question': 'Нужно предсказать токсичность белков при помощи графовой нейронной сети', 
+answer: {"model": "GNN_Classifier", "dataset": "tox21", "task": "classification"} 
+
+question': 'Нужно предсказать токсичность белков при помощи графовой нейронной сети', 
+answer: {"model": "GNN_Classifier", "dataset": "tox21", "task": "classification"} 
+
+question': 'Нужно предсказать токсичность белков при помощи графовой нейронной сети', 
+answer: {"model": "GNN_Classifier", "dataset": "tox21", "task": "classification"} 
+
+question': 'Нужно предсказать токсичность белков при помощи графовой нейронной сети', 
+answer: {"model": "GNN_Classifier", "dataset": "tox21", "task": "classification"} 
+
+#################################################################################################
+
+'question': 'Сделай нормальный пайплайн такую штуку короче молекулу классифицировать', 
+'answer': answer: {"model": "CatBoostClassifier", "dataset": "BACE", "task": "classification"} 
+
+'question': 'Сделай нормальный пайплайн такую штуку короче молекулу классифицировать', 
+'answer': answer: {"model": "CatBoostClassifier", "dataset": "BACE", "task": "classification"} 
+
+'question': 'Сделай нормальный пайплайн такую штуку короче молекулу классифицировать', 
+'answer': answer: {"model": "CatBoostClassifier", "dataset": "BACE", "task": "classification"} 
+
+'question': 'Сделай нормальный пайплайн такую штуку короче молекулу классифицировать', 
+'answer': answer: {"model": "CatBoostClassifier", "dataset": "BACE", "task": "classification"} 
+
+'question': 'Сделай нормальный пайплайн такую штуку короче молекулу классифицировать', 
+'answer': answer: {"model": "CatBoostClassifier", "dataset": "BACE", "task": "classification"} 
+
+#################################################################################################

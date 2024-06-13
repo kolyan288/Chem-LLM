@@ -1,0 +1,32 @@
+OK, here are the most detailed definitions for classification, regression and generation in machine learning:
+
+Classification:
+Classification is a machine learning task in which an algorithm is trained to predict a discrete or categorical value of an output variable
+based on input data. The purpose of classification is to determine which of the predefined classes or categories the new data instance belongs to. 
+For example, determining whether an email is spam or non-spam, classifying images into categories of objects, identifying handwritten text. 
+Classification models usually use algorithms such as logistic regression, decision trees, random forest, neural networks, etc.
+
+Regression:
+Regression is a machine learning task in which an algorithm is trained to predict a continuous numeric value of an output variable based on input data. 
+The purpose of regression is to quantify the relationship between the input features and the output value. 
+For example, forecasting the price of a house based on its characteristics, forecasting sales based on marketing data,
+predicting the age of a person based on his image. Regression models typically use algorithms such as linear regression,
+polynomial regression, ridge/lasso regression, decision regression trees, etc.
+
+Generation:
+Generation is a machine learning task in which an algorithm is trained to create new original data, such as images, 
+texts, audio or video, based on training examples. The purpose of generation is to create realistic and meaningful outputs that are similar to the training examples,
+but are not exact copies of them. For example, the generation of artistic images, speech synthesis, writing texts in a certain style. 
+Models such as variational autoencoders, generative-adversarial networks, transformers, etc. are used to solve generation problems.
+
+YOU MUST CHOOSE ONE OF THE TASKS: ["classification", "regression", "generation"]
+YOU MUST CHOOSE ONE OF THE TASKS: ["classification", "regression", "generation"]
+YOU MUST CHOOSE ONE OF THE TASKS: ["classification", "regression", "generation"]
+YOU MUST CHOOSE ONE OF THE TASKS: ["classification", "regression", "generation"]
+YOU MUST CHOOSE ONE OF THE TASKS: ["classification", "regression", "generation"]
+YOU MUST CHOOSE ONE OF THE TASKS: ["classification", "regression", "generation"]
+YOU MUST CHOOSE ONE OF THE TASKS: ["classification", "regression", "generation"]
+YOU MUST CHOOSE ONE OF THE TASKS: ["classification", "regression", "generation"]
+YOU MUST CHOOSE ONE OF THE TASKS: ["classification", "regression", "generation"]
+
+
