@@ -20,13 +20,14 @@
 
 Tox21 - предсказывают токсичность белков (задача мультиклассовой классификации)
 
-YOU MUST CHOOSE ONE OF THE DATASETS: ["BACE", "BBBC001", "BBBC002", "BBBC003", "BBBP", "ESOL_Delaney", "Factors", "tox21"]
-YOU MUST CHOOSE ONE OF THE DATASETS: ["BACE", "BBBC001", "BBBC002", "BBBC003", "BBBP", "ESOL_Delaney", "Factors", "tox21"]
-YOU MUST CHOOSE ONE OF THE DATASETS: ["BACE", "BBBC001", "BBBC002", "BBBC003", "BBBP", "ESOL_Delaney", "Factors", "tox21"]
-YOU MUST CHOOSE ONE OF THE DATASETS: ["BACE", "BBBC001", "BBBC002", "BBBC003", "BBBP", "ESOL_Delaney", "Factors", "tox21"]
-YOU MUST CHOOSE ONE OF THE DATASETS: ["BACE", "BBBC001", "BBBC002", "BBBC003", "BBBP", "ESOL_Delaney", "Factors", "tox21"]
-YOU MUST CHOOSE ONE OF THE DATASETS: ["BACE", "BBBC001", "BBBC002", "BBBC003", "BBBP", "ESOL_Delaney", "Factors", "tox21"]
-YOU MUST CHOOSE ONE OF THE DATASETS: ["BACE", "BBBC001", "BBBC002", "BBBC003", "BBBP", "ESOL_Delaney", "Factors", "tox21"]
-YOU MUST CHOOSE ONE OF THE DATASETS: ["BACE", "BBBC001", "BBBC002", "BBBC003", "BBBP", "ESOL_Delaney", "Factors", "tox21"]
-YOU MUST CHOOSE ONE OF THE DATASETS: ["BACE", "BBBC001", "BBBC002", "BBBC003", "BBBP", "ESOL_Delaney", "Factors", "tox21"]
-YOU MUST CHOOSE ONE OF THE DATASETS: ["BACE", "BBBC001", "BBBC002", "BBBC003", "BBBP", "ESOL_Delaney", "Factors", "tox21"]
+ТЫ ОБЯЗАН ВЫБРАТЬ ТОЛЬКО ЭТИ ДАТАСЕТЫ ИЗ СПИСКА: ["BACE", "BBBC001", "BBBC002", "BBBC003", "BBBP", "ESOL_Delaney", "Factors", "tox21"]
+ТЫ ОБЯЗАН ВЫБРАТЬ ТОЛЬКО ЭТИ ДАТАСЕТЫ ИЗ СПИСКА: ["BACE", "BBBC001", "BBBC002", "BBBC003", "BBBP", "ESOL_Delaney", "Factors", "tox21"]
+ТЫ ОБЯЗАН ВЫБРАТЬ ТОЛЬКО ЭТИ ДАТАСЕТЫ ИЗ СПИСКА: ["BACE", "BBBC001", "BBBC002", "BBBC003", "BBBP", "ESOL_Delaney", "Factors", "tox21"]
+ТЫ ОБЯЗАН ВЫБРАТЬ ТОЛЬКО ЭТИ ДАТАСЕТЫ ИЗ СПИСКА: ["BACE", "BBBC001", "BBBC002", "BBBC003", "BBBP", "ESOL_Delaney", "Factors", "tox21"]
+ТЫ ОБЯЗАН ВЫБРАТЬ ТОЛЬКО ЭТИ ДАТАСЕТЫ ИЗ СПИСКА: ["BACE", "BBBC001", "BBBC002", "BBBC003", "BBBP", "ESOL_Delaney", "Factors", "tox21"]
+ТЫ ОБЯЗАН ВЫБРАТЬ ТОЛЬКО ЭТИ ДАТАСЕТЫ ИЗ СПИСКА: ["BACE", "BBBC001", "BBBC002", "BBBC003", "BBBP", "ESOL_Delaney", "Factors", "tox21"]
+ТЫ ОБЯЗАН ВЫБРАТЬ ТОЛЬКО ЭТИ ДАТАСЕТЫ ИЗ СПИСКА: ["BACE", "BBBC001", "BBBC002", "BBBC003", "BBBP", "ESOL_Delaney", "Factors", "tox21"]
+ТЫ ОБЯЗАН ВЫБРАТЬ ТОЛЬКО ЭТИ ДАТАСЕТЫ ИЗ СПИСКА: ["BACE", "BBBC001", "BBBC002", "BBBC003", "BBBP", "ESOL_Delaney", "Factors", "tox21"]
+ТЫ ОБЯЗАН ВЫБРАТЬ ТОЛЬКО ЭТИ ДАТАСЕТЫ ИЗ СПИСКА: ["BACE", "BBBC001", "BBBC002", "BBBC003", "BBBP", "ESOL_Delaney", "Factors", "tox21"]
+
+Что касается признаков, которые в эти датасеты не входят

@@ -8,58 +8,28 @@ I REPEAT, RESPONSIBLE TO ASSEMBLE A PIPLINE IN EXCLUSIVELY THREE PARTS: model, d
 ACTIONS THAT ARE SPECIFIED IN THE "must_to_select" PARAMETER FOR EACH ACTION. IF YOU ARE NOT SURE THAT AMONG 
 THE PROPOSED ANSWERS IS NOT THE CORRECT ANSWER, STILL CHOOSE SOMETHING FROM THE LIST. SELF-ACTIVITY IS NOT ALLOWED
 
-FOLLOW THE INSTRUCTIONS EXCLUSIVELY AND DO ONLY WHAT THE INSTRUCTIONS REQUIRE. YOU ARE REQUIRED, 
-I REPEAT, RESPONSIBLE TO ASSEMBLE A PIPLINE IN EXCLUSIVELY THREE PARTS: model, dataset, task AND SELECT ONLY THOSE 
-ACTIONS THAT ARE SPECIFIED IN THE "must_to_select" PARAMETER FOR EACH ACTION. IF YOU ARE NOT SURE THAT AMONG 
-THE PROPOSED ANSWERS IS NOT THE CORRECT ANSWER, STILL CHOOSE SOMETHING FROM THE LIST. SELF-ACTIVITY IS NOT ALLOWED
-
-FOLLOW THE INSTRUCTIONS EXCLUSIVELY AND DO ONLY WHAT THE INSTRUCTIONS REQUIRE. YOU ARE REQUIRED, 
-I REPEAT, RESPONSIBLE TO ASSEMBLE A PIPLINE IN EXCLUSIVELY THREE PARTS: model, dataset, task AND SELECT ONLY THOSE 
-ACTIONS THAT ARE SPECIFIED IN THE "must_to_select" PARAMETER FOR EACH ACTION. IF YOU ARE NOT SURE THAT AMONG 
-THE PROPOSED ANSWERS IS NOT THE CORRECT ANSWER, STILL CHOOSE SOMETHING FROM THE LIST. SELF-ACTIVITY IS NOT ALLOWED
-
-FOLLOW THE INSTRUCTIONS EXCLUSIVELY AND DO ONLY WHAT THE INSTRUCTIONS REQUIRE. YOU ARE REQUIRED, 
-I REPEAT, RESPONSIBLE TO ASSEMBLE A PIPLINE IN EXCLUSIVELY THREE PARTS: model, dataset, task AND SELECT ONLY THOSE 
-ACTIONS THAT ARE SPECIFIED IN THE "must_to_select" PARAMETER FOR EACH ACTION. IF YOU ARE NOT SURE THAT AMONG 
-THE PROPOSED ANSWERS IS NOT THE CORRECT ANSWER, STILL CHOOSE SOMETHING FROM THE LIST. SELF-ACTIVITY IS NOT ALLOWED
-
-FOLLOW THE INSTRUCTIONS EXCLUSIVELY AND DO ONLY WHAT THE INSTRUCTIONS REQUIRE. YOU ARE REQUIRED, 
-I REPEAT, RESPONSIBLE TO ASSEMBLE A PIPLINE IN EXCLUSIVELY THREE PARTS: model, dataset, task AND SELECT ONLY THOSE 
-ACTIONS THAT ARE SPECIFIED IN THE "must_to_select" PARAMETER FOR EACH ACTION. IF YOU ARE NOT SURE THAT AMONG 
-THE PROPOSED ANSWERS IS NOT THE CORRECT ANSWER, STILL CHOOSE SOMETHING FROM THE LIST. SELF-ACTIVITY IS NOT ALLOWED
+YOU MUST CHOOSE ONE OF THE DATASETS: ["BACE", "BBBC001", "BBBC002", "BBBC003", "BBBP", "ESOL_Delaney", "Factors", "tox21"]
+YOU MUST CHOOSE ONE OF THE FOLLOWING MODELS: ["GNN_Classifier", "GNN_Regressor", "XGBoostClassifier", "XGBoostRegressor"]
+YOU MUST CHOOSE ONE OF THE TASKS: ["classification", "regression", "generation"]
 
 #################################################################################################
 
 question': 'Нужно предсказать токсичность белков при помощи графовой нейронной сети', 
 answer: {"model": "GNN_Classifier", "dataset": "tox21", "task": "classification"} 
 
-question': 'Нужно предсказать токсичность белков при помощи графовой нейронной сети', 
-answer: {"model": "GNN_Classifier", "dataset": "tox21", "task": "classification"} 
-
-question': 'Нужно предсказать токсичность белков при помощи графовой нейронной сети', 
-answer: {"model": "GNN_Classifier", "dataset": "tox21", "task": "classification"} 
-
-question': 'Нужно предсказать токсичность белков при помощи графовой нейронной сети', 
-answer: {"model": "GNN_Classifier", "dataset": "tox21", "task": "classification"} 
-
-question': 'Нужно предсказать токсичность белков при помощи графовой нейронной сети', 
-answer: {"model": "GNN_Classifier", "dataset": "tox21", "task": "classification"} 
 
 #################################################################################################
 
 'question': 'Сделай нормальный пайплайн такую штуку короче молекулу классифицировать', 
 'answer': answer: {"model": "CatBoostClassifier", "dataset": "BACE", "task": "classification"} 
 
-'question': 'Сделай нормальный пайплайн такую штуку короче молекулу классифицировать', 
-'answer': answer: {"model": "CatBoostClassifier", "dataset": "BACE", "task": "classification"} 
 
-'question': 'Сделай нормальный пайплайн такую штуку короче молекулу классифицировать', 
-'answer': answer: {"model": "CatBoostClassifier", "dataset": "BACE", "task": "classification"} 
+#################################################################################################
 
-'question': 'Сделай нормальный пайплайн такую штуку короче молекулу классифицировать', 
-'answer': answer: {"model": "CatBoostClassifier", "dataset": "BACE", "task": "classification"} 
+'question': 'Нужно предсказать значение липофильности при помощи графовой нейронной сети', 
+'answer': answer: {"model": "GNN_Regressor", "dataset": "logp", "task": "regression"}
 
-'question': 'Сделай нормальный пайплайн такую штуку короче молекулу классифицировать', 
-'answer': answer: {"model": "CatBoostClassifier", "dataset": "BACE", "task": "classification"} 
+'question': 'Нужно предсказать значение липофильности при помощи графовой нейронной сети', 
+'answer': answer: {"model": "GNN_Regressor", "dataset": "logp", "task": "regression"}
 
 #################################################################################################

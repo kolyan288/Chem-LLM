@@ -39,3 +39,4 @@ for act in activities:
 
 # Вывод первых 5 записей датасета
 print(dataset[:5])
+

@@ -5578,3 +5578,34 @@ Subcutaneous score
 Retention ratio
 Synergy with methicillin
 Glucose lowering ob/ob dose
+Control DMSO Pyknosed Nuclei (%)
+Control DMSO Mitotic Cells (%)
+Control DMSO Tubulin Phenotype Different Cells (%)
+Control DMSO Mitochondria Different-Phenotype Cells (%)
+Control DMSO Membrane Permeable-Phenotype Cells (%)
+Population Hoechst High Intensity Objects (%)
+Population Normal (%)
+Population Apoptotic (%)
+Population Healthy Nuclei (%)
+Population Fragmented Nuclei (%)
+Population Pyknosed Nuclei (%)
+Population Mitotic Cells (%)
+Population Tubulin-Different-Phenotype (%)
+Population Mitochondria Different-Phenotype (%)
+Population Membrane Permeable-Phenotype (%)
+Control DMSO Total Cells
+Control DMSO Healthy Nuclei (%)
+Total Cell Count
+Control DMSO Fragmented Nuclei %
+Control DMSO Pyknosed Nuclei (%)
+LUCIFERASE EXPRESSION CONTROL - IC50
+Tissue Severity Score
+Percent Effect
+% Ctrl
+% Cell Death
+Repellency
+Z score
+LUCIFERASE INFECTION ASSAY - IC90
+Thermal melting change
+ALBGLOB
+

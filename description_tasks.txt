@@ -20,13 +20,6 @@ but are not exact copies of them. For example, the generation of artistic images
 Models such as variational autoencoders, generative-adversarial networks, transformers, etc. are used to solve generation problems.
 
 YOU MUST CHOOSE ONE OF THE TASKS: ["classification", "regression", "generation"]
-YOU MUST CHOOSE ONE OF THE TASKS: ["classification", "regression", "generation"]
-YOU MUST CHOOSE ONE OF THE TASKS: ["classification", "regression", "generation"]
-YOU MUST CHOOSE ONE OF THE TASKS: ["classification", "regression", "generation"]
-YOU MUST CHOOSE ONE OF THE TASKS: ["classification", "regression", "generation"]
-YOU MUST CHOOSE ONE OF THE TASKS: ["classification", "regression", "generation"]
-YOU MUST CHOOSE ONE OF THE TASKS: ["classification", "regression", "generation"]
-YOU MUST CHOOSE ONE OF THE TASKS: ["classification", "regression", "generation"]
-YOU MUST CHOOSE ONE OF THE TASKS: ["classification", "regression", "generation"]
+
 
 
