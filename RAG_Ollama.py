@@ -30,12 +30,20 @@ loader = WebBaseLoader(
 )
 docs = loader.load()
 
+###---------------------------------------LOAD KEYS---------------------------------------###
+
+with open('API_tokens.txt') as f:
+    keys = eval(f.read())
+    
 ###------------------------------------EMBED DOCUMENTS------------------------------------###
 
+
+
+
 os.environ['LANGCHAIN_TRACING_V2'] = 'True'
-os.environ['LANCHAIN_API_KEY'] = '<your-token>'
-os.environ['OPENAI_API_KEY'] = '<your-token>'
-os.environ['HUGGINGFACEHUB_API_TOKEN'] = '<your-token>'
+os.environ['LANGCHAIN_API_KEY'] = keys['langchain']
+os.environ['OPENAI_API_KEY'] = keys['openai']
+os.environ['HUGGINGFACEHUB_API_TOKEN'] = keys['hf']
 
 embed_model_id = 'sentence-transformers/all-MiniLM-L6-v2'
 
@@ -59,11 +67,11 @@ retriever = db.as_retriever()
 
 ###----------------------------------------INIT LLM---------------------------------------###
 
-login("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")
+login(keys['hf'])
 model_id = "meta-llama/Meta-Llama-Guard-2-8B"
 device = "cuda"
 dtype = torch.bfloat16
-access_token = "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"
+access_token = keys['hf']
 
 quantization_config = BitsAndBytesConfig(load_in_8bit = True, llm_int8_enable_fp32_cpu_offload = True)
 

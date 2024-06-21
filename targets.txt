@@ -5608,4 +5608,181 @@ Z score
 LUCIFERASE INFECTION ASSAY - IC90
 Thermal melting change
 ALBGLOB
-
+HepSE_bilirubinemia
+INHIBITION
+GGT Increase - Activity Score
+Hepatotoxicity (granulomatous hepatitis)
+BASO
+CK
+mortality
+Growth Rate
+% Control
+Drug metabolism
+Delta TM
+LUCIFERASE INFECTION ASSAY - IC50
+LYMLE
+SODIUM
+LIPASE
+HEPG2TOX ASSAY - CC90
+Residual Activity
+Biotransformation
+BILDIR
+GLUC
+%Inhib (Mean)
+PHOSLPD
+%Max (Mean)
+NEUTLE
+LYM
+ALP
+BASOLE
+PHOS
+MIC=>90
+AbsAC1000_uM
+AbsAC40_uM
+MONO
+log2FC
+HEPG2TOX ASSAY - CC50
+LUCIFERASE EXPRESSION CONTROL - IC90
+PROT
+HCT
+Hepatotoxicity (mechanism)
+BILI
+POTASSIUM
+CREAT
+AST
+TRIG
+Hepatotoxicity (association with vascular disease)
+Hepatotoxicity
+CALCIUM
+SGPT Increase - Number of Reports
+Control DMSO Apoptotic Cells (%)
+Hepatotoxicity (time to onset)
+log(activity)
+Compound recovery
+Drug degradation
+FIBRINO
+pXC50
+Drug recovery
+MCH
+Phytotoxicity
+CHOL
+CHLORIDE
+delta Tm Staurosporine positive control
+GGT Increase - Index Value
+PLAT
+MIC=>95
+HGB
+CO2
+Control DMSO Growth Rate
+HepSE_cholecystitis
+GGT
+MIC>99
+pA2(app)
+MBC99.9
+ALB
+FPD measurement
+Drug uptake(free)
+EOS
+Therm_solubility
+HepSE_jaundice
+PXC50
+HepSE_elevated liver function tests
+GGT Increase - Number of Reports
+pKa_A1
+URATE
+AFC50
+D40
+AbsAC50_uM
+MCV
+RBCNUC
+log(RatioIC50)
+IC15
+Hepatotoxicity (successful reintroduction)
+NEUTSG
+HepSE_liver fatty
+AbsAC26_uM
+MFC<=99.9
+Blood/Plasma ratio
+RETIRBC
+LDH Increase - Number of Reports
+K(p,uu,brain)
+MOTILITY REDUCTION/CYTOTOXICITY
+Conc @ Max Fold Incr
+TERMBW
+Hepatotoxicity (moderate)
+AC40
+EOSLE
+SGOT Increase - Activity Score
+Composite Activity - Marginal
+R50
+MBIC50
+Hepatotoxicity (chronic liver disease)
+HepSE_cholelithiasis
+MONOLE
+Mean % growth (n = 2) for 10.0 µM probe concentration
+Drugexcretion
+HepSE_Combined Scores
+Max_Activity
+log(1/ED50)
+LDH Increase - Index Value
+Hepatotoxicity (benign tumour)
+GR80
+GI80
+GI90
+Schizont size
+DILI_severity_class
+Cell Proliferation EC50
+IC50 relative
+% residual kinase activity
+log(ratio)
+MHC10
+TOP
+MBIC90
+log(%)
+delta Tm
+MIC>90
+DILI_Concern
+HC10
+AFI
+Relative Growth
+Hepatotoxicity (acute)
+log(1/LD50)
+Ke(app)
+Normalized abundances for DMSO
+MRTlast
+alphaKi
+MED=>50
+Hepatotoxicity (animal toxicity known)
+SGPT Increase - Activity Score
+AbsAC35_uM
+DNAUC
+AbsAC35
+MRT(t)
+Hepatotoxicity (choleostasis)
+Hepatotoxicity (cirrhosis)
+Drug excretion
+HepSE_cirrhosis
+Hit score
+Hepatotoxicity (cytolytic)
+Potency_Dyrk1b_uM
+log(43000/Ki)
+Occ
+% of inhibition
+Concentration @ Maxi
+log10(%HIA +10)
+log(1/BC)
+% inhibition
+MBC99.5
+Retention_time
+MFC99.5
+AUClast
+Alkaline Phosphatase Increase - Number of Reports
+log(ILSmax)
+In vitro activity
+log(1/MIC)
+% Residual activity with Skepinone-L
+BOTTOM
+Kinetic_solubility
+log(RBA)
+LC80
+log(1/I50)

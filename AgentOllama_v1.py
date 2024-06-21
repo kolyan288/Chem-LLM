@@ -5,8 +5,6 @@ from langchain_experimental.llms.ollama_functions import OllamaFunctions
 from langchain_core.prompts import PromptTemplate, ChatPromptTemplate
 from langchain_core.pydantic_v1 import BaseModel, Field
 
-# model = OllamaFunctions(model="llama3", format="json")
-
 
 with open('description_models.txt', 'r') as f1:
     description_models = f1.read().replace('\n', ' ')
