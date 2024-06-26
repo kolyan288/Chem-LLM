@@ -18,5 +18,5 @@ CatBoost Classifier (CatBoostClassifier)
 CatBoost Regressor (CatBoostRegressor)
 
 
-YOU MUST CHOOSE ONE OF THE FOLLOWING MODELS: ["GNN_Classifier", "GNN_Regressor", "XGBoostClassifier", "XGBoostRegressor"]
+
 

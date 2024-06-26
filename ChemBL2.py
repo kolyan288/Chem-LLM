@@ -10,12 +10,13 @@ activity = new_client.activity
 with open('targets.txt', 'r', encoding = 'utf-8') as f:
     targets = [line.strip() for line in f]
 
+print('Данные загружены')
 while True:
     chh = random.choice(activity)
     if chh['standard_type'] not in targets:
         print(chh['standard_type'])
         targets.append(chh['standard_type'])
-         
+    
         
         
         

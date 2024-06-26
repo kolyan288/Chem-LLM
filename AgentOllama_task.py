@@ -1,20 +1,32 @@
+# pip and built-in dependencies
 import os
-from typing import List
-from langchain import hub
+import rdkit
+import random
+import importlib
+import numpy as np
+import pandas as pd
+from langchain_core.tools import tool
 from langchain.schema import Document
 from typing_extensions import TypedDict
+from langchain_community.llms import Ollama
 from langgraph.graph import END, StateGraph
-from langchain.prompts import PromptTemplate, ChatPromptTemplate
-from langchain_core.pydantic_v1 import BaseModel, Field
+from langchain.prompts import PromptTemplate
 from langchain_community.vectorstores import Chroma
+from langchain_core.runnables import RunnableConfig
+from langchain_core.prompts import ChatPromptTemplate
 from langchain_nomic.embeddings import NomicEmbeddings
 from langchain_community.chat_models import ChatOllama
-from langchain_mistralai import ChatMistralAI
+from typing import Any, Dict, List, Optional, TypedDict
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_core.pydantic_v1 import BaseModel, Field
+from langchain_core.tools import render_text_description
 from langchain_community.document_loaders import WebBaseLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.tools.tavily_search import TavilySearchResults
-from langchain_experimental.llms.ollama_functions import OllamaFunctions
 from langchain_core.output_parsers import JsonOutputParser, StrOutputParser
+
+# custom internal dependencies
+from llm_utils import feature_extract
 
 ###---------------------------------------OS ENVIRONMENTS-------------------------------------###
 
@@ -30,7 +42,6 @@ os.environ["OPENAI_API_KEY"] = keys['openai']
 mistral_api_key = keys['mistral'] 
 
 ###--------------------------------------BUILD RETRIEVER--------------------------------------###
-
 
 local_llm = 'llama3:8b'
 #local_llm = 'mistral'
@@ -61,17 +72,27 @@ for filename in os.listdir(folder_path):
         file_path = os.path.join(folder_path, filename)
         with open(file_path, 'r', encoding='utf-8') as file:
             texts.append(MyDoc(file.read()))
-
+            
 docs_list.extend(texts)
 print(len(docs_list))
 
 text_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(chunk_size=1000, chunk_overlap=200)
 doc_splits = text_splitter.split_documents(docs_list)
 
+# embed_model_id = 'sentence-transformers/all-MiniLM-L6-v2'
+# device = f'cuda:{cuda.current_device()}' if cuda.is_available() else 'cpu'
+# embd = HuggingFaceEmbeddings(
+#     model_name=embed_model_id,
+#     model_kwargs={'device': device},
+#     encode_kwargs={'device': device, 'batch_size': 32}
+# )
+
+embd = NomicEmbeddings(model="nomic-embed-text-v1.5", inference_mode='local')
+
 vectorstore = Chroma.from_documents(
     documents=doc_splits,
     collection_name="rag-chroma",
-    embedding=NomicEmbeddings(model="nomic-embed-text-v1.5", inference_mode='local')
+    embedding=embd
 )
 
 retriever = vectorstore.as_retriever()
@@ -314,12 +335,13 @@ def generate(state):
         state (dict): New key added to state, generation, that contains LLM generation
     """
     
-    print("---GENERATE---")
+    print("---ГЕНЕРАЦИЯ---")
     question = state["question"]
     documents = state["documents"]
 
     # RAG generation
     generation = rag_chain.invoke({"documents": documents, "question": question})
+    print(generation)
     return {"documents": documents, "question": question, "generation": generation}
 
 def grade_documents(state):
@@ -456,11 +478,12 @@ def grade_generation_v_documents_and_question(state):
         str: Decision for next node to call
     """
 
-    print("---CHECK HALLUCINATIONS---")
+    print("---ПРОВЕРКА НА ГАЛЛЮЦИНАЦИИ---")
     question = state["question"]
     documents = state["documents"]
     generation = state["generation"]
-
+    print(generation)
+    
     score = hallucination_grader.invoke(
         {"documents": documents, "generation": generation}
     )
@@ -526,14 +549,13 @@ app = workflow.compile()
 
 ###-------------------------------------------RUN APP-----------------------------------------###
 
-my_prompt = "Нужно предсказать токсичность белков при помощи графовой нейронной сети"
+my_prompt = "Я синтезировал молекулу и необходимо предсказать для неё свойства AvgIpc, BertzCT, HallKierAlpha"
 
 inputs = {"question": my_prompt}
 
 for output in app.stream(inputs):
     for key, value in output.items():
         # Node
-        
         print(f"Node '{key}':")
         # Optional: print full state at each node
         # pprint.pprint(value["keys"], indent=2, width=80, depth=None)
@@ -541,3 +563,96 @@ for output in app.stream(inputs):
 
 # Final generation
 print(value["generation"])
+
+###---------------------------------------WORK WITH TOOLS-------------------------------------###
+
+
+@tool
+def check_properties(prop_names:List[str]):
+    
+    """Эта функция использует заданные свойства молекул пользователем
+    и оценивает их при помощи библиотеки rdkit. На вход получает список строк
+    Можешь проверить, не спрятались ли в названиях свойств русские буквы и если такие есть,
+    заменить на такие же английские
+    ТЫ ОБЯЗАН СОХРАНИТЬ РАСКЛАДКУ И РЕГИСТР СВОЙСТВ, КОТОРЫЕ ТЕБЕ ДАНЫ
+    """
+    
+    print(prop_names)
+    properties = pd.DataFrame()
+    generated_molecules = pd.read_csv('tox21.csv')['smiles'].values
+    sampl = random.choice(range(5, 20))
+    sampl = random.sample(list(generated_molecules), sampl)
+    
+    for i in prop_names:
+        for j in sampl:
+        
+            properties.loc[j, i] = feature_extract(i, j)
+    
+    return properties
+
+
+model = Ollama(model="llama3:8b")
+
+
+#output = {'task': 'regression'}
+output = value['generation']
+
+tools = [check_properties]
+
+rendered_tools = render_text_description(tools)
+
+system_prompt = f"""\
+You are an assistant that has access to the following set of tools. 
+Here are the names and descriptions for each tool:
+
+{rendered_tools}
+
+Given the user input, return the name and input of the tool to use. 
+
+AvgIpc, BalabanJ, BertzCT, Chi0, Chi1, Ipc, HallKierAlpha, Kappa1, Kappa2, Kappa3, MolLogP, MolMR
+
+Return your response as a JSON blob with 'name' and 'arguments' keys.
+
+The `arguments` should be a dictionary, with keys corresponding 
+to the argument names and the values corresponding to the requested values.
+
+ТЫ ОБЯЗАН СОХРАНИТЬ РАСКЛАДКУ И РЕГИСТР СВОЙСТВ, КОТОРЫЕ ТЕБЕ ДАНЫ
+"""
+
+prompt = ChatPromptTemplate.from_messages(
+    [("system", system_prompt), ("user", "{input}")]
+)
+
+
+
+
+class ToolCallRequest(TypedDict):
+    """A typed dict that shows the inputs into the invoke_tool function."""
+
+    name: str
+    arguments: Dict[str, Any]
+
+
+def invoke_tool(
+    tool_call_request: ToolCallRequest, config: Optional[RunnableConfig] = None
+):
+    """A function that we can use the perform a tool invocation.
+
+    Args:
+        tool_call_request: a dict that contains the keys name and arguments.
+            The name must match the name of a tool that exists.
+            The arguments are the arguments to that tool.
+            ТЫ ОБЯЗАН СОХРАНИТЬ РАСКЛАДКУ И РЕГИСТР СВОЙСТВ, КОТОРЫЕ ТЕБЕ ДАНЫ
+        config: This is configuration information that LangChain uses that contains
+            things like callbacks, metadata, etc.See LCEL documentation about RunnableConfig.
+
+    Returns:
+        output from the requested tool
+    """
+    tool_name_to_tool = {tool.name: tool for tool in tools}
+    name = tool_call_request["name"]
+    requested_tool = tool_name_to_tool[name]
+    return requested_tool.invoke(tool_call_request["arguments"], config=config)
+
+chain = prompt | model | JsonOutputParser() | invoke_tool
+chain.invoke({"input": f"{output}"})

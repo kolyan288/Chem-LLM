@@ -5597,7 +5597,6 @@ Control DMSO Total Cells
 Control DMSO Healthy Nuclei (%)
 Total Cell Count
 Control DMSO Fragmented Nuclei %
-Control DMSO Pyknosed Nuclei (%)
 LUCIFERASE EXPRESSION CONTROL - IC50
 Tissue Severity Score
 Percent Effect
@@ -5786,3 +5785,193 @@ Kinetic_solubility
 log(RBA)
 LC80
 log(1/I50)
+AbsAC40
+LOAEL
+MIC>95
+SGOT Increase - Number of Reports
+Radiolabel recovery
+Rblood_plasma
+RatioLC50
+HepSE_hepatic failure
+Hepatotoxicity (malignant tumour)
+Composite Activity - Score
+AbsAC30_uM
+HepSE_liver function tests abnormal
+HepSE_hepatic necrosis
+deltaH
+MIC=<50
+CTD50
+MBC>99.9
+effect
+fluorescence
+Mean fold stimulation
+HepSE_liver disease
+Hepatotoxicity (steatosis)
+logPeff
+HepSE_hepatitis
+Hepatotoxicity (comment)
+Crop_yield
+log(1/MLD)
+ECI
+FICI80
+Drugabsorption
+Alkaline Phosphatase Increase - Activity Score
+MFC99.9
+GI99
+% Inhibition of Control Values (Mean n=2)
+LC10
+Hepatotoxicity (severe hepatitis)
+MIC=<90
+HepSE_hepatomegaly
+Composite Activity - Active
+SGPT Increase - Index Value
+MIC99.9
+SGOT Increase - Index Value
+pKa_B2
+EC68
+-log(solubility)
+% Inhibition of Control Specific Binding (Mean n=2)
+deltalog(Tau/KA)
+AbsAC1
+Age
+V0
+FDI
+fCmax/MIC
+fIC50
+deltaG
+log10PFU/ml
+log(Kinetic_solubility)
+Max_Activity_Concent
+MIC=>80
+Kd(app)
+absorbance
+CC75
+A2
+log(1/D40)
+Drug transport
+LDH Increase - Activity Score
+pDC50
+log(1/SD90)
+Root_galling_index
+Fm
+AUCt
+pEC170
+DILI positive/negative
+Log10 reduction
+HILLSLOPE
+-log(1/EC50)
+log(permeability)
+I0.5
+fEC50
+Cmax/dose
+Normalized abundances for compound
+% activity remaining
+Stabilty
+T>IC50
+CLH(app)
+pXI50
+logK(blood)
+pKa_B1
+deltalogIC50
+AC200
+LTKB_BD DILI severity score
+log1/IC50
+log%Abs
+% Inhibition of Control Agonist Response (Mean n=2)
+PFU
+Ep
+LC70
+MLD50
+logP(lung)
+Kinetic
+AbsAC90
+pCD
+LC99.9
+MED20
+EFTPC
+CL free
+log(IA)
+Alkaline Phosphatase Increase - Index Value
+IC16
+CLint
+pIC90
+Avg IC90
+log(1/Km)
+log(1/MED)
+KdH
+Retention_index
+EH
+logKb
+Average IC90
+Max_Concentration
+MIC=>50
+I75
+VRT(t)
+HC30
+FPDc
+Maximum Tmax
+log1/S0
+MED>50
+SPF
+mechanism based inhibition
+Ki50
+HIA
+A0.5
+deltaCT
+Inihibition
+-log(inh/100-inh)
+-TdeltaS
+MIC>98
+S0.5
+Cave
+AUCt/dose
+S50
+Ae
+pLC50
+t1/2lambda
+Ratio_Papp
+AbsAC0.54_uM
+Conc_brain
+ED0
+Cp(f)max
+AbsAC30
+log1/GI50
+RU
+pIC50(app)
+Activation (% of control)
+log(Tau/KA)
+Cmin ss
+D10
+K(p,uu,CSF)
+Cell Proliferation IC50
+I90
+pK50
+% Inhibition of Control Values
+AUC normalised
+logKcat
+deltaS
+CRC/CRC0
+pTC50
+deltaRm
+Phospholipidosis as % of positive control
+TdeltaS
+AbsAC200_uM
+MBEC80
+KI_MICROM
+MFC100
+fVdss
+AUCED90
+AURC
+AUC Ratio
+delta(V1/2)
+MBIC=>90
+pMIC50
+MCCD
+log(ratioKi)
+Drug mobility
+LC25
+log1/CLD50
+pID50
+Max_Delta_Tm
+MNTD90
+Cell Proliferation EC70

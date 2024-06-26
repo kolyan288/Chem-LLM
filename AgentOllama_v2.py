@@ -2,18 +2,16 @@ import os
 import pprint
 from torch import cuda
 from typing import List
+from langchain import hub
 from langchain.schema import Document
 from typing_extensions import TypedDict
-from langchain_cohere import ChatCohere
 from langgraph.graph import END, StateGraph
 from langchain.prompts import PromptTemplate
-from langchain_core.messages import HumanMessage
 from langchain_community.vectorstores import Chroma
-from langchain_core.prompts import ChatPromptTemplate
 from langchain_community.chat_models import ChatOllama
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_core.pydantic_v1 import BaseModel, Field
-from langchain_core.output_parsers import StrOutputParser
+from langchain_core.output_parsers import JsonOutputParser
 from langchain_community.document_loaders import WebBaseLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.tools.tavily_search import TavilySearchResults
@@ -90,27 +88,15 @@ def retrieve(state):
     Returns:
         state (dict): New key added to state, documents, that contains retrieved documents
     """
-    print("---RETRIEVE---")
+    print("---РЕТРИВЕР---")
     question = state["question"]
 
     # Retrieval
     documents = retriever.invoke(question)
+    #documents = docs_list
     return {"documents": documents, "question": question}
 
-###---------------------------------------LLM FALLBACK--------------------------------------###
 
-preamble = PromptTemplate("""You are an assistant for question-answering tasks. 
-              Answer the question based upon your knowledge. 
-              Use three sentences maximum and keep the answer concise.""")
-
-llm = ChatOllama(model=local_llm, format="json", temperature=0)
-
-def prompt(x):
-    return ChatPromptTemplate.from_messages([HumanMessage(f"Question: {x['question']} \nAnswer: ")])
-
-llm_chain = prompt | llm | StrOutputParser()
-
-def llm_fallback(state):
     """
     Generate answer using the LLM w/o vectorstore
 
@@ -127,24 +113,20 @@ def llm_fallback(state):
 
 ###-----------------------------------------BUILD RAG---------------------------------------###
 
-preamble = """You are an assistant for question-answering tasks. 
-              Use the following pieces of retrieved context to answer 
-              the question. If you don't know the answer, just say that you don't know. 
-              Use three sentences maximum and keep the answer concise."""
+class Output(BaseModel):
+    #model: str #= Field(description=description_models, required=True)
+    #dataset: str #= Field(description=description_datasets, required=True)
+    task: list #= Field(description=description_tasks, required=True)
 
-llm = ChatCohere(model_name="command-r", temperature=0).bind(preamble=preamble)
+prompt = hub.pull("rlm/rag-prompt")
 
-def prompt(x):
-    return ChatPromptTemplate.from_messages(
-        [
-            HumanMessage(
-                f"Question: {x['question']} \nAnswer: ",
-                additional_kwargs={"documents": x["documents"]},
-            )
-        ]
-    )
+llm = OllamaFunctions(model=local_llm, format = 'json', temperature=0)
+structured_llm = llm.with_structured_output(Output)
 
-rag_chain = prompt | llm | StrOutputParser()
+def format_docs(docs):
+    return "\n\n".join(doc.page_content for doc in docs)
+
+rag_chain = prompt | structured_llm 
 
 def generate(state):
     """
@@ -156,39 +138,42 @@ def generate(state):
     Returns:
         state (dict): New key added to state, generation, that contains LLM generation
     """
+    
     print("---GENERATE---")
     question = state["question"]
     documents = state["documents"]
-    if not isinstance(documents, list):
-        documents = [documents]
 
     # RAG generation
-    generation = rag_chain.invoke({"documents": documents, "question": question})
+    generation = rag_chain.invoke({"context": documents, "question": question})
     return {"documents": documents, "question": question, "generation": generation}
 
 ###----------------------------------------BULD GRADER--------------------------------------###
 
-class GradeDocuments(BaseModel):
-    """Binary score for relevance check on retrieved documents."""
+llm = ChatOllama(model=local_llm, format="json", temperature=0)
 
-    binary_score: str = Field(
-        description="Documents are relevant to the question, 'yes' or 'no'"
-    )
+# prompt = PromptTemplate(
+#     template="""You are a grader assessing relevance of a retrieved document to a user question. \n 
+#     Here is the retrieved document: \n\n {document} \n\n
+#     Here is the user question: {question} \n
+#     If the document contains keywords related to the user question, grade it as relevant. \n
+#     It does not need to be a stringent test. The goal is to filter out erroneous retrievals. \n
+#     Give a binary score 'yes' or 'no' score to indicate whether the document is relevant to the question. \n
+#     Provide the binary score as a JSON with a single key 'score' and no premable or explanation.""",
+#     input_variables=["question", "document"],
+# )
 
-preamble = """You are a grader assessing relevance of a retrieved document to a user question. \n
-If the document contains keyword(s) or semantic meaning related to the user question, grade it as relevant. \n
-Give a binary score 'yes' or 'no' score to indicate whether the document is relevant to the question."""
-
-llm = ChatCohere(model="command-r", temperature=0)
-structured_llm_grader = llm.with_structured_output(GradeDocuments, preamble=preamble)
-
-grade_prompt = ChatPromptTemplate.from_messages(
-    [
-        ("human", "Retrieved document: \n\n {document} \n\n User question: {question}"),
-    ]
+prompt = PromptTemplate(
+    template="""Вы — оценщик, оценивающий соответствие полученного документа вопросу пользователя. \n
+    Вот полученный документ: \n\n {document} \n\n
+    Вот вопрос пользователя: {question} \n
+    Если документ содержит ключевые слова, связанные с вопросом пользователя, оцените его как релевантный. \n
+    Это не обязательно должен быть строгий тест. Цель состоит в том, чтобы отфильтровать ошибочные запросы. \n
+    Дайте двоичную оценку «yes» или no», чтобы указать, имеет ли документ отношение к вопросу. \n
+    Предоставьте двоичную оценку в формате JSON с одним ключом «score» без преамбулы или пояснений.""",
+    input_variables=["question", "document"],
 )
 
-retrieval_grader = grade_prompt | structured_llm_grader
+retrieval_grader = prompt | llm | JsonOutputParser()
 
 def grade_documents(state):
     """
@@ -201,7 +186,7 @@ def grade_documents(state):
         state (dict): Updates documents key with only filtered relevant documents
     """
 
-    print("---CHECK DOCUMENT RELEVANCE TO QUESTION---")
+    print("---ПРОВЕРКА РЕЛЕВАНТНОСТИ ДОКУМЕНТОВ---")
     question = state["question"]
     documents = state["documents"]
 
@@ -211,18 +196,18 @@ def grade_documents(state):
         score = retrieval_grader.invoke(
             {"question": question, "document": d.page_content}
         )
-        grade = score.binary_score
+        grade = score["score"]
         if grade == "yes":
-            print("---GRADE: DOCUMENT RELEVANT---")
+            print("---GRADE: ДОКУМЕНТ РЕЛЕВАНТНЫЙ---")
             filtered_docs.append(d)
         else:
-            print("---GRADE: DOCUMENT NOT RELEVANT---")
+            print("---GRADE: ДОКУМЕНТ НЕРЕЛЕВАНТНЫЙ---")
             continue
     return {"documents": filtered_docs, "question": question}
 
 ###----------------------------------BUILD WEB SEARCH TOOL----------------------------------###
 
-web_search_tool = TavilySearchResults()
+web_search_tool = TavilySearchResults(k=3)
 
 def web_search(state):
     """
@@ -247,41 +232,19 @@ def web_search(state):
 
 ###-------------------------------------QUESTION ROUTER-------------------------------------###
 
-class WebSearch(BaseModel):
-    """
-    The internet. Use web_search for questions that are related to anything else than agents, prompt engineering, and adversarial attacks.
-    """
+llm = ChatOllama(model=local_llm, format="json", temperature=0)
 
-    query: str = Field(description="The query to use when searching the internet.")
-
-
-class VectorStore(BaseModel):
-    """
-    A vectorstore containing documents related to agents, prompt engineering, and adversarial attacks. Use the vectorstore for questions on these topics.
-    """
-
-    query: str = Field(description="The query to use when searching the vectorstore.")
-
-
-
-preamble = """You are an expert at routing a user question to a vectorstore or web search.
-The vectorstore contains documents related to agents, prompt engineering, and adversarial attacks.
-Use the vectorstore for questions on these topics. Otherwise, use web-search."""
-
-
-llm = OllamaFunctions(model="llama3:8b", temperature = 0)
-structured_llm_router = llm.bind_tools(
-    tools=[WebSearch, VectorStore], preamble=preamble
+prompt = PromptTemplate(
+    template="""Вы являетесь экспертом в перенаправлении вопросов пользователя в векторную базу данных или в веб-поиск. \n
+    Используйте векторную базу данных, чтобы найти документы, относящиеся к вопросу пользователя \n
+    Не нужно быть строгим с ключевыми словами в вопросе, относящемся к этим темам. \n
+    В противном случае используйте веб-поиск. Дайте двоичный выбор «web_search» или «vectorstore» в зависимости от вопроса. \n
+    Верните JSON с одним ключом «datasource» без преамбулы или объяснения. \n
+    Вопрос для направления: {question}""",
+    input_variables=["question"],
 )
 
-
-route_prompt = ChatPromptTemplate.from_messages(
-    [
-        ("human", "{question}"),
-    ]
-)
-
-question_router = route_prompt | structured_llm_router
+question_router = prompt | llm | JsonOutputParser()
 
 def route_question(state):
     """
@@ -294,29 +257,19 @@ def route_question(state):
         str: Next node to call
     """
 
-    print("---ROUTE QUESTION---")
+    print("---АДРЕСАЦИЯ ПОЛУЧЕННОГО ВОПРОСА---")
     question = state["question"]
+    print(question)
     source = question_router.invoke({"question": question})
-
-    # Fallback to LLM or raise error if no decision
-    if "tool_calls" not in source.additional_kwargs:
-        print("---ROUTE QUESTION TO LLM---")
-        return "llm_fallback"
-    if len(source.additional_kwargs["tool_calls"]) == 0:
-        raise "Router could not decide source"
-
-    # Choose datasource
-    datasource = source.additional_kwargs["tool_calls"][0]["function"]["name"]
-    if datasource == "web_search":
-        print("---ROUTE QUESTION TO WEB SEARCH---")
+    print(source)
+    print(source["datasource"])
+    if source["datasource"] == "web_search":
+        print("---ВОПРОС АДРЕСОВАН К ВЕБ-ПОИСКУ---")
         return "web_search"
-    elif datasource == "vectorstore":
-        print("---ROUTE QUESTION TO RAG---")
+    elif source["datasource"] == "vectorstore":
+        print("---ВОПРОС АДРЕСОВАН К ВЕКТОРНОМУ ХРАНИЛИЩУ---")
         return "vectorstore"
-    else:
-        print("---ROUTE QUESTION TO LLM---")
-        return "vectorstore"
-
+   
 ###------------------------------------DECIDE TO GENETATE-----------------------------------###
 
 def decide_to_generate(state):
@@ -330,70 +283,90 @@ def decide_to_generate(state):
         str: Binary decision for next node to call
     """
 
-    print("---ASSESS GRADED DOCUMENTS---")
+    print("---ПРОЦЕСС ОЦЕНИВАНИЯ ДОКУМЕНТОВ---")
     state["question"]
     filtered_documents = state["documents"]
 
     if not filtered_documents:
         # All documents have been filtered check_relevance
         # We will re-generate a new query
-        print("---DECISION: ALL DOCUMENTS ARE NOT RELEVANT TO QUESTION, WEB SEARCH---")
+        print(
+            "---DECISION: ВСЕ ДОКУМЕНТЫ НЕРЕЛЕВАНТНЫ, ПЕРЕФОРМУЛИРОВКА ВОПРОСА---"
+        )
         return "web_search"
     else:
         # We have relevant documents, so generate answer
         print("---DECISION: GENERATE---")
         return "generate"
 
+   
+
+
 ###-------------------------------------GRADE GENERATION------------------------------------###
 
 ###-------------------------HALLUCINATION GRADER------------------------###
 
-class GradeHallucinations(BaseModel):
-    """Binary score for hallucination present in generation answer."""
+llm = ChatOllama(model=local_llm, format="json", temperature=0)
 
-    binary_score: str = Field(
-        description="Answer is grounded in the facts, 'yes' or 'no'"
-    )
+# prompt = PromptTemplate(
+#     template="""You are a grader assessing whether an answer is grounded in / supported by a set of facts. \n 
+#     Here are the facts:
+#     \n ------- \n
+#     {documents} 
+#     \n ------- \n
+#     Here is the answer: {generation}
+#     Give a binary score 'yes' or 'no' score to indicate whether the answer is grounded in / supported by a set of facts. \n
+#     Provide the binary score as a JSON with a single key 'score' and no preamble or explanation.""",
+#     input_variables=["generation", "documents"],
+# )
 
-preamble = """You are a grader assessing whether an LLM generation is grounded in / supported by a set of retrieved facts. \n
-Give a binary score 'yes' or 'no'. 'Yes' means that the answer is grounded in / supported by the set of facts."""
-
-llm = ChatCohere(model="command-r", temperature=0)
-structured_llm_grader = llm.with_structured_output(
-    GradeHallucinations, preamble=preamble
+prompt = PromptTemplate(
+    template="""Вы оценщик, оценивающий, основан ли ответ на наборе фактов или подкреплен им. \n
+    Вот факты:
+    \n ------- \n
+    {documents} 
+    \n ------- \n
+    Вот ответ: {generation}
+    Присвойте двоичную оценку «yes» или «no», чтобы указать, основан ли ответ на наборе фактов или подкреплен им. \n
+    Предоставьте двоичную оценку в формате JSON с одним ключом «score» без преамбулы или пояснений. На вы""",
+    input_variables=["generation", "documents"],
 )
 
-hallucination_prompt = ChatPromptTemplate.from_messages(
-    [
-        # ("system", system),
-        ("human", "Set of facts: \n\n {documents} \n\n LLM generation: {generation}"),
-    ]
-)
-
-hallucination_grader = hallucination_prompt | structured_llm_grader
+hallucination_grader = prompt | llm | JsonOutputParser()
 
 ###------------------------------LLM GRADER-----------------------------###
 
-class GradeAnswer(BaseModel):
-    """Binary score to assess answer addresses question."""
+llm = ChatOllama(model=local_llm, format="json", temperature=0)
 
-    binary_score: str = Field(
-        description="Answer addresses the question, 'yes' or 'no'"
-    )
+# prompt = PromptTemplate(
+#     template="""You are a grader assessing whether an answer is useful to resolve a question. \n 
+#     Here is the answer:
+#     \n ------- \n
+#     {generation} 
+#     \n ------- \n
+#     Here is the question: {question}
+#     Give a binary score 'yes' or 'no' to indicate whether the answer is useful to resolve a question. \n
+#     Provide the binary score as a JSON with a single key 'score' and no preamble or explanation.""",
+#     input_variables=["generation", "question"],
+# )
 
-preamble = """You are a grader assessing whether an answer addresses / resolves a question \n
-              Give a binary score 'yes' or 'no'. Yes' means that the answer resolves the question."""
-
-llm = ChatCohere(model="command-r", temperature=0)
-structured_llm_grader = llm.with_structured_output(GradeAnswer, preamble=preamble)
-
-answer_prompt = ChatPromptTemplate.from_messages(
-    [
-        ("human", "User question: \n\n {question} \n\n LLM generation: {generation}"),
-    ]
+prompt = PromptTemplate(
+    template="""Вы оценщик, оценивающий, полезен ли ответ для решения вопроса. \n
+    Вот ответ:
+    \n ------- \n
+    {generation} 
+    \n ------- \n
+    Вот вопрос: {question}
+    Дайте двоичную оценку «yes» или «no», чтобы указать, полезен ли ответ для решения вопроса. \n
+    Предоставьте двоичную оценку в формате JSON с одним ключом «score» без преамбулы или пояснений. \n
+    Ты ОБЯЗАН поставить оценку 'yes' когда ответ представляет собой \n
+    JSON Output, в котором есть ключ 'task', а значение - список из необходимых задач, имеющих то или \n 
+    иное отношение к документу. """,
+    
+    input_variables=["generation", "question"],
 )
 
-answer_grader = answer_prompt | structured_llm_grader
+answer_grader = prompt | llm | JsonOutputParser()
 
 def grade_generation_v_documents_and_question(state):
     """
@@ -414,13 +387,15 @@ def grade_generation_v_documents_and_question(state):
     score = hallucination_grader.invoke(
         {"documents": documents, "generation": generation}
     )
-    grade = score.binary_score
+    grade = score["score"]
 
+    # Check hallucination
     if grade == "yes":
         print("---DECISION: GENERATION IS GROUNDED IN DOCUMENTS---")
+        # Check question-answering
         print("---GRADE GENERATION vs QUESTION---")
         score = answer_grader.invoke({"question": question, "generation": generation})
-        grade = score.binary_score
+        grade = score["score"]
         if grade == "yes":
             print("---DECISION: GENERATION ADDRESSES QUESTION---")
             return "useful"
@@ -428,7 +403,8 @@ def grade_generation_v_documents_and_question(state):
             print("---DECISION: GENERATION DOES NOT ADDRESS QUESTION---")
             return "not useful"
     else:
-        pprint("---DECISION: GENERATION IS NOT GROUNDED IN DOCUMENTS, RE-TRY---")
+        print(grade)
+        print("---DECISION: GENERATION IS NOT GROUNDED IN DOCUMENTS, RE-TRY---")
         return "not supported"
 
 
@@ -470,7 +446,7 @@ workflow.add_conditional_edges(
         "useful": END,
     },
 )
-workflow.add_edge("llm_fallback", END)
+
 app = workflow.compile()
 
 ###--------------------------------------BUILD PIPELINE-------------------------------------###

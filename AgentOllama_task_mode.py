@@ -1,19 +1,23 @@
 import os
-from typing import List
-from langchain import hub
+from torch import cuda
+from langchain_core.tools import tool
 from langchain.schema import Document
 from typing_extensions import TypedDict
+from langchain_community.llms import Ollama
 from langgraph.graph import END, StateGraph
-from langchain.prompts import PromptTemplate, ChatPromptTemplate
-from langchain_core.pydantic_v1 import BaseModel, Field
+from langchain.prompts import PromptTemplate
 from langchain_community.vectorstores import Chroma
+from langchain_core.runnables import RunnableConfig
+from langchain_core.prompts import ChatPromptTemplate
 from langchain_nomic.embeddings import NomicEmbeddings
 from langchain_community.chat_models import ChatOllama
-from langchain_mistralai import ChatMistralAI
+from typing import Any, Dict, List, Optional, TypedDict
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_core.pydantic_v1 import BaseModel, Field
+from langchain_core.tools import render_text_description
 from langchain_community.document_loaders import WebBaseLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.tools.tavily_search import TavilySearchResults
-from langchain_experimental.llms.ollama_functions import OllamaFunctions
 from langchain_core.output_parsers import JsonOutputParser, StrOutputParser
 
 ###---------------------------------------OS ENVIRONMENTS-------------------------------------###
@@ -31,19 +35,8 @@ mistral_api_key = keys['mistral']
 
 ###--------------------------------------BUILD RETRIEVER--------------------------------------###
 
-
 local_llm = 'llama3:8b'
 #local_llm = 'mistral'
-
-urls = [
-    "https://lilianweng.github.io/posts/2023-06-23-agent/",
-    "https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/",
-    "https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/",
-
-]
-
-docs = [WebBaseLoader(url).load() for url in urls]
-docs_list = [item for sublist in docs for item in sublist]
 
 class MyDoc:
     def __init__(self, doc):
@@ -62,16 +55,26 @@ for filename in os.listdir(folder_path):
         with open(file_path, 'r', encoding='utf-8') as file:
             texts.append(MyDoc(file.read()))
 
-docs_list.extend(texts)
+docs_list = texts
 print(len(docs_list))
 
 text_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(chunk_size=1000, chunk_overlap=200)
 doc_splits = text_splitter.split_documents(docs_list)
 
+embed_model_id = 'sentence-transformers/all-MiniLM-L6-v2'
+device = f'cuda:{cuda.current_device()}' if cuda.is_available() else 'cpu'
+embd = HuggingFaceEmbeddings(
+    model_name=embed_model_id,
+    model_kwargs={'device': device},
+    encode_kwargs={'device': device, 'batch_size': 32}
+)
+
+#embd = NomicEmbeddings(model="nomic-embed-text-v1.5", inference_mode='local')
+
 vectorstore = Chroma.from_documents(
     documents=doc_splits,
     collection_name="rag-chroma",
-    embedding=NomicEmbeddings(model="nomic-embed-text-v1.5", inference_mode='local')
+    embedding=embd
 )
 
 retriever = vectorstore.as_retriever()
@@ -91,7 +94,7 @@ llm = ChatOllama(model=local_llm, format="json", temperature=0)
 # )
 
 prompt = PromptTemplate(
-    template="""Вы являетесь экспертом в перенаправлении вопросов пользователя в векторныую базу данных или в веб-поиск. \n
+    template="""Вы являетесь экспертом в перенаправлении вопросов пользователя в векторную базу данных или в веб-поиск. \n
     Используйте векторную базу данных, чтобы задать вопросы об агентах LLM, оперативном проектировании и состязательных атаках. \n
     Не нужно быть строгим с ключевыми словами в вопросе, относящемся к этим темам. \n
     В противном случае используйте веб-поиск. Дайте двоичный выбор «web_search» или «vectorstore» в зависимости от вопроса. \n
@@ -99,7 +102,6 @@ prompt = PromptTemplate(
     Вопрос для направления: {question}""",
     input_variables=["question"],
 )
-
 
 question_router = prompt | llm | JsonOutputParser()
 
@@ -145,26 +147,19 @@ prompt = PromptTemplate(
     Ты - русскоязычный ml ассистент. 
     Тебе нужно построить пайплайн машинного обучения, состоящего из нескольких блоков.
     Я тебе в этом помогу. Во-первых, внимательно прочитай текст, данный пользователем, 
-    и разбей его на смысловые куски. Сначала нужно понять, с каким датасетом мы имеем дело.
-    Обычно пользователь указывает целевые таргеты или целевые признаки - значения, которые нужно 
-    спрогнозировать при помощи ML модели. И на этом этапе необходимо получить первую пару словаря 
-    ключ-значение. Эта пара выглядит следующим образом: 'task': ['str_1', 'str_2' ... 'str_n'],
-    где 'target_1', 'target_2' и 'target_n' - некоторые целевые значения, которые тебе необходимо вытащить.
-    Их может быть необязательно много. Их может быть один 'task': ['target_1'] или два
-    'task': ['str_1', 'str_2']. Либо же может быть указан напрямую датасет, который
-    необходимо обработать. Для формирования списка тебе помогут следующие документы: {documents}
-    
+    и разбей его на смысловые куски. Сначала нужно понять, с какой задачей мы имеем дело.
+    Для определения задачи тебе помогут следующие документы: {documents}
     
     Тебе нужно понять, какую задачу хочет решить пользователь и дать ответ в формате JSON. 
     JSON должен содержать следующие поля, основываять на тексте пользователя,
     с возможными значениями:
     
-    'task': [Свойства молекул, которые ты выбрал],
-    Ответом должен быть исключительно JSON.
-    Создайте словарь в формате JSON, где ключ 'task' связан со списком строковых значений. 
-    Каждое значение в списке должно быть уникальной строкой, представляющей цель (target), 
-    и обозначаться как 'target_1', 'target_2', ..., 'target_n'. Убедитесь, что все цели являются строками и 
-    следуют указанному формату.
+    'task_mode': [Задача, которая должна решаться пользователем],
+    Ответом должен быть исключительно JSON. В
+    Создайте словарь в формате JSON, где ключ 'task_mode' связан со строкой, которая обозначает ту
+    или иную задачу. Выбирать ты можешь исключительно одну из трех задач: 'classification', 'regression', 'generation'
+    
+    
     Если нет уверенности в значении какого либо поля - ставь null.
     
     
@@ -236,8 +231,8 @@ prompt = PromptTemplate(
     Дайте двоичную оценку «yes» или «no», чтобы указать, полезен ли ответ для решения вопроса. \n
     Предоставьте двоичную оценку в формате JSON с одним ключом «score» без преамбулы или пояснений. \n
     Ты ОБЯЗАН поставить оценку 'yes' когда ответ представляет собой \n
-    JSON Output, в котором есть ключ 'task', а значение - список из необходимых задач, имеющих то или \n 
-    иное отношение к документу. 
+    JSON Output, в котором есть ключ 'task_mode', а значение - 'classification', 'regression' или 'generation'\n 
+    
     """,
     
     input_variables=["generation", "question"],
@@ -526,18 +521,96 @@ app = workflow.compile()
 
 ###-------------------------------------------RUN APP-----------------------------------------###
 
-my_prompt = "Нужно предсказать токсичность белков при помощи графовой нейронной сети"
-
+my_prompt = "Нужно предсказать значение липофильности"
 inputs = {"question": my_prompt}
 
 for output in app.stream(inputs):
     for key, value in output.items():
         # Node
-        
         print(f"Node '{key}':")
         # Optional: print full state at each node
         # pprint.pprint(value["keys"], indent=2, width=80, depth=None)
-    print("\n---\n")
+    print('\n---\n')
 
 # Final generation
 print(value["generation"])
+
+###---------------------------------------WORK WITH TOOLS-------------------------------------###
+
+output = value['generation']
+
+@tool
+def start_generation():
+    """If you are sure that a generative algorithm 
+    is needed to solve a given problem, 
+    run the "start_generation" function"""
+    
+    print('***ЗАПУЩЕН ГЕНЕРАТИВНЫЙ АЛГОРИТМ***')
+
+@tool
+def start_classification():
+    """If you are sure that a classification algorithm 
+    is needed to solve a given problem, 
+    run the "start_classification" function"""
+    
+    print('***ЗАПУЩЕН АЛГОРИТМ КЛАССИФИКАЦИИ***')
+    
+@tool
+def start_regression():
+    """If you are sure that a regression algorithm 
+    is needed to solve a given problem, 
+    run the "start_classification" function"""
+    
+    print('***ЗАПУЩЕН АЛГОРИТМ РЕГРЕССИИ***')
+
+tools = [start_generation, start_classification, start_regression]
+
+model = Ollama(model="phi3")
+
+rendered_tools = render_text_description(tools)
+
+system_prompt = f"""\
+You are an assistant that has access to the following set of tools. 
+Here are the names and descriptions for each tool:
+
+{rendered_tools}
+
+Given the user input, return the name and input of the tool to use. 
+Return your response as a JSON blob with 'name' and 'arguments' keys.
+
+The `arguments` should be a dictionary, with keys corresponding 
+to the argument names and the values corresponding to the requested values.
+"""
+
+prompt = ChatPromptTemplate.from_messages(
+    [("system", system_prompt), ("user", "{input}")]
+)
+
+class ToolCallRequest(TypedDict):
+    """A typed dict that shows the inputs into the invoke_tool function."""
+
+    name: str
+    arguments: Dict[str, Any]
+
+def invoke_tool(tool_call_request: ToolCallRequest, config: Optional[RunnableConfig] = None):
+    
+    """A function that we can use the perform a tool invocation.
+
+    Args:
+        tool_call_request: a dict that contains the keys name and arguments.
+            The name must match the name of a tool that exists.
+            The arguments are the arguments to that tool.
+        config: This is configuration information that LangChain uses that contains
+            things like callbacks, metadata, etc.See LCEL documentation about RunnableConfig.
+
+    Returns:
+        output from the requested tool
+    """
+    
+    tool_name_to_tool = {tool.name: tool for tool in tools}
+    name = tool_call_request["name"]
+    requested_tool = tool_name_to_tool[name]
+    return requested_tool.invoke(tool_call_request["arguments"], config=config)
+
+chain = prompt | model | JsonOutputParser() | invoke_tool
+chain.invoke({"input": f"{output}"})
