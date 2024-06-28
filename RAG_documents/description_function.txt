@@ -27,32 +27,40 @@ THE PROPOSED ANSWERS IS NOT THE CORRECT ANSWER, STILL CHOOSE SOMETHING FROM THE 
 Я синтезировал молекулу и необходимо предсказать для неё свойства AvgIpc, BertzCT, HallKierAlpha task: ['AvgIpc', 'BertzCT', 'HallKierAlpha']
 Я синтезировал молекулу и необходимо предсказать для неё свойства AvgIpc, BertzCT, HallKierAlpha task: ['AvgIpc', 'BertzCT', 'HallKierAlpha']
 
-Сгенерировать датасет с распределением значений AvgIpc, BertzCT, Ipc для всех известных органических соединений.
-Сгенерировать датасет с распределением значений AvgIpc, BertzCT, Ipc для всех известных органических соединений.
+Сгенерировать датасет с распределением значений AvgIpc, BertzCT, Ipc для всех известных органических соединений. task: ['AvgIpc', 'BertzCT', 'Ipc']
+Сгенерировать датасет с распределением значений AvgIpc, BertzCT, Ipc для всех известных органических соединений. task: ['AvgIpc', 'BertzCT', 'Ipc']
 
-Получить датасет с вычисленными индексами BalabanJ, Chi0 для гетероциклических соединений.
-Получить датасет с вычисленными индексами BalabanJ, Chi0 для гетероциклических соединений.
+Получить датасет с вычисленными индексами BalabanJ, Chi0 для гетероциклических соединений. task: ['BalabanJ', 'Chi0']
+Получить датасет с вычисленными индексами BalabanJ, Chi0 для гетероциклических соединений. task: ['BalabanJ', 'Chi0']
 
-Создать датасет, включающий значения MolLogP, MolMR для полициклических ароматических углеводородов.
-Создать датасет, включающий значения MolLogP, MolMR для полициклических ароматических углеводородов.
+Создать датасет, включающий значения MolLogP, MolMR для полициклических ароматических углеводородов. task: ['MolLogP', 'MolMR']
+Создать датасет, включающий значения MolLogP, MolMR для полициклических ароматических углеводородов. task: ['MolLogP', 'MolMR']
 
-Выгрузить датасет с данными о Chi0 и Chi1 для набора молекул, имеющих потенциал в фармацевтике.
-Выгрузить датасет с данными о Chi0 и Chi1 для набора молекул, имеющих потенциал в фармацевтике.
+Выгрузить датасет с данными о Chi0 и Chi1 для набора молекул, имеющих потенциал в фармацевтике. task: ['Chi0', 'Chi1']
+Выгрузить датасет с данными о Chi0 и Chi1 для набора молекул, имеющих потенциал в фармацевтике. task: ['Chi0', 'Chi1']
 
-Сформировать датасет с измерениями AvgIpc, BalabanJ, BertzCT, Chi0, Chi1, Ipc, HallKierAlpha, Kappa1, Kappa2, Kappa3 для молекул, содержащих функциональные группы амина.
-Сформировать датасет с измерениями AvgIpc, BalabanJ, BertzCT, Chi0, Chi1, Ipc, HallKierAlpha, Kappa1, Kappa2, Kappa3 для молекул, содержащих функциональные группы амина.
+Сформировать датасет с измерениями AvgIpc, BalabanJ, BertzCT, Chi0, Chi1, Ipc, HallKierAlpha, Kappa1, Kappa2, Kappa3 для молекул, содержащих функциональные группы амина. 
+task: ['AvgIpc', 'BalabanJ', 'BertzCT', 'Chi0', 'Chi1', 'Ipc', 'HallKierAlpha', 'Kappa1', 'Kappa2', 'Kappa3']
 
-Запросить датасет с коэффициентами AvgIpc, BalabanJ, BertzCT, Chi0, Chi1, Kappa3, MolLogP, MolMR для всех известных алканов.
-Запросить датасет с коэффициентами AvgIpc, BalabanJ, BertzCT, Chi0, Chi1, Kappa3, MolLogP, MolMR для всех известных алканов.
+Сформировать датасет с измерениями AvgIpc, BalabanJ, BertzCT, Chi0, Chi1, Ipc, HallKierAlpha, Kappa1, Kappa2, Kappa3 для молекул, содержащих функциональные группы амина. 
+task: ['AvgIpc', 'BalabanJ', 'BertzCT', 'Chi0', 'Chi1', 'Ipc', 'HallKierAlpha', 'Kappa1', 'Kappa2', 'Kappa3']
 
-Составить датасет с расчётами Kappa1, Kappa2, Kappa3, Kappa4 для молекул с различной степенью насыщенности.
-Составить датасет с расчётами Kappa1, Kappa2, Kappa3, Kappa4 для молекул с различной степенью насыщенности.
+Запросить датасет с коэффициентами AvgIpc, BalabanJ, BertzCT, Chi0, Chi1, Kappa3, MolLogP, MolMR для всех известных алканов. ['BalabanJ', 'BertzCT', 'Chi0', 'Chi1', 'Kappa3', 'MolLogP', 'MolMR']
+Запросить датасет с коэффициентами AvgIpc, BalabanJ, BertzCT, Chi0, Chi1, Kappa3, MolLogP, MolMR для всех известных алканов. ['BalabanJ', 'BertzCT', 'Chi0', 'Chi1', 'Kappa3', 'MolLogP', 'MolMR']
+
+Составить датасет с расчётами Kappa1, Kappa2, Kappa3, Kappa4 для молекул с различной степенью насыщенности. task: ['kappa1', 'Kappa2', 'Kappa3', 'Kappa4']
+Составить датасет с расчётами Kappa1, Kappa2, Kappa3, Kappa4 для молекул с различной степенью насыщенности. task: ['kappa1', 'Kappa2', 'Kappa3', 'Kappa4']
+
+Извлечь датасет с показателями AvgIpc, BalabanJ, BertzCT, Chi0, Chi1, Ipc, HallKierAlpha, Kappa1, Kappa2, Kappa3, MolLogP, MolMR для молекул, имеющих различные липофильные свойства. 
+task: ['AvgIpc', 'BalabanJ', 'BertzCT', 'Chi0', 'Chi1', 'Ipc', 'HallKierAlpha', 'Kappa1', 'Kappa2', 'Kappa3', 'MolLogP', 'MolMR']
 
 Извлечь датасет с показателями AvgIpc, BalabanJ, BertzCT, Chi0, Chi1, Ipc, HallKierAlpha, Kappa1, Kappa2, Kappa3, MolLogP, MolMR для молекул, имеющих различные липофильные свойства.
-Извлечь датасет с показателями AvgIpc, BalabanJ, BertzCT, Chi0, Chi1, Ipc, HallKierAlpha, Kappa1, Kappa2, Kappa3, MolLogP, MolMR для молекул, имеющих различные липофильные свойства.
+task: ['AvgIpc', 'BalabanJ', 'BertzCT', 'Chi0', 'Chi1', 'Ipc', 'HallKierAlpha', 'Kappa1', 'Kappa2', 'Kappa3', 'MolLogP', 'MolMR']
 
-Собрать датасет с значениями MolMR, Mollol, HEHEHEHEHE для молекул с высокой молекулярной рефракцией.
-Собрать датасет с значениями MolMR, Mollol, HEHEHEHEHE для молекул с высокой молекулярной рефракцией.
+Собрать датасет с значениями MolMR, Mollol, HEHEHEHEHE для молекул с высокой молекулярной рефракцией. task: ['MolMR', 'Mollol', 'HEHEHEHEHE']
+
+Собрать датасет с значениями MolMR, Mollol, HEHEHEHEHE для молекул с высокой молекулярной рефракцией. task: ['MolMR', 'Mollol', 'HEHEHEHEHE']
+
 
 Создать комплексный датасет, включающий все свойства для молекул, представляющих интерес в исследованиях новых материалов.
 Создать комплексный датасет, включающий все свойства для молекул, представляющих интерес в исследованиях новых материалов.

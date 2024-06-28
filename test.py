@@ -1,31 +1,32 @@
+# pip and built-in dependencies
 import os
-from torch import cuda
-from typing import List
-from langchain import hub
+import rdkit
+import random
+import importlib
+import numpy as np
+import pandas as pd
 from langchain_core.tools import tool
 from langchain.schema import Document
 from typing_extensions import TypedDict
+from langchain_community.llms import Ollama
 from langgraph.graph import END, StateGraph
 from langchain.prompts import PromptTemplate
-from langchain_anthropic import ChatAnthropic
-from langchain_mistralai import ChatMistralAI
 from langchain_community.vectorstores import Chroma
+from langchain_core.runnables import RunnableConfig
+from langchain_core.prompts import ChatPromptTemplate
 from langchain_nomic.embeddings import NomicEmbeddings
 from langchain_community.chat_models import ChatOllama
-from langchain_core.output_parsers import JsonOutputParser
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.tools import render_text_description
+from typing import Any, Dict, List, Optional, TypedDict
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_core.pydantic_v1 import BaseModel, Field
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_core.tools import render_text_description
 from langchain_community.document_loaders import WebBaseLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.tools.tavily_search import TavilySearchResults
-from langchain_experimental.llms.ollama_functions import OllamaFunctions
 from langchain_core.output_parsers import JsonOutputParser, StrOutputParser
-from langchain.agents.tool_calling_agent.base import create_tool_calling_agent
-from langchain_experimental.llms.ollama_functions import convert_to_ollama_tool
-from langchain_core.prompts.chat import ChatPromptTemplate, MessagesPlaceholder
+
+# custom internal dependencies
+from llm_utils import feature_extract, MyDoc
 
 with open('API_tokens.txt') as f:
     keys = eval(f.read())
@@ -41,6 +42,8 @@ os.environ['ANTHROPIC_API_KEY'] = keys['anthropic']
 os.environ['GOOGLE_API_KEY'] = keys['google']
 
 
+output = value['generation']
+
 @tool
 def start_generation():
     """If you are sure that a generative algorithm 
@@ -48,6 +51,9 @@ def start_generation():
     run the "start_generation" function"""
     
     print('***ЗАПУЩЕН ГЕНЕРАТИВНЫЙ АЛГОРИТМ***')
+    df = pd.read_csv('dataset.csv')
+    print(df.head())
+    
 
 @tool
 def start_classification():
@@ -56,6 +62,8 @@ def start_classification():
     run the "start_classification" function"""
     
     print('***ЗАПУЩЕН АЛГОРИТМ КЛАССИФИКАЦИИ***')
+    df = pd.read_csv('dataset.csv')
+    print(df.head())
     
 @tool
 def start_regression():
@@ -64,29 +72,14 @@ def start_regression():
     run the "start_classification" function"""
     
     print('***ЗАПУЩЕН АЛГОРИТМ РЕГРЕССИИ***')
-    
-@tool
-def check_properties(prop_names:List[str]):
-    """Эта функция использует заданные свойства молекул пользователем и оцениват из при помощи
-    библиотеки rdkit. 
-    """
-    propreties ={i:[] for i in prop_names}
-    for i in prop_names:
-        propreties[i] = rdkit.calc(mol, i)
-    print('***ЗАПУЩЕН АЛГОРИТМ РЕГРЕССИИ***')
-    return propreties
-
-from langchain_community.llms import Ollama
-
-model = Ollama(model="phi3")
-
-#output = {'task': 'regression'}
-output = 'Нужно предсказать липофильность при помощи графовой нейронной сети'
+    df = pd.read_csv('dataset.csv')
+    print(df.head())
 
 tools = [start_generation, start_classification, start_regression]
 
+model = Ollama(model="llama3:8b")
+
 rendered_tools = render_text_description(tools)
-print(rendered_tools)
 
 system_prompt = f"""\
 You are an assistant that has access to the following set of tools. 
@@ -105,22 +98,14 @@ prompt = ChatPromptTemplate.from_messages(
     [("system", system_prompt), ("user", "{input}")]
 )
 
-
-from typing import Any, Dict, Optional, TypedDict
-
-from langchain_core.runnables import RunnableConfig
-
-
 class ToolCallRequest(TypedDict):
     """A typed dict that shows the inputs into the invoke_tool function."""
 
     name: str
     arguments: Dict[str, Any]
 
-
-def invoke_tool(
-    tool_call_request: ToolCallRequest, config: Optional[RunnableConfig] = None
-):
+def invoke_tool(tool_call_request: ToolCallRequest, config: Optional[RunnableConfig] = None):
+    
     """A function that we can use the perform a tool invocation.
 
     Args:
@@ -133,10 +118,12 @@ def invoke_tool(
     Returns:
         output from the requested tool
     """
+    
     tool_name_to_tool = {tool.name: tool for tool in tools}
     name = tool_call_request["name"]
     requested_tool = tool_name_to_tool[name]
     return requested_tool.invoke(tool_call_request["arguments"], config=config)
 
 chain = prompt | model | JsonOutputParser() | invoke_tool
-chain.invoke({"input": f"{output}"})
+chain.invoke({"input": output})
+

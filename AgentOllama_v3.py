@@ -16,6 +16,8 @@ from langchain_community.tools.tavily_search import TavilySearchResults
 from langchain_experimental.llms.ollama_functions import OllamaFunctions
 from langchain_core.output_parsers import JsonOutputParser, StrOutputParser
 
+
+
 ###---------------------------------------OS ENVIRONMENTS-------------------------------------###
 
 with open('API_tokens.txt') as f:
@@ -204,7 +206,7 @@ prompt = PromptTemplate(
     \n ------- \n
     Вот ответ: {generation}
     Присвойте двоичную оценку «yes» или «no», чтобы указать, основан ли ответ на наборе фактов или подкреплен им. \n
-    Предоставьте двоичную оценку в формате JSON с одним ключом «score» без преамбулы или пояснений. На вы""",
+    Предоставьте двоичную оценку в формате JSON с одним ключом «score» без преамбулы или пояснений.""",
     input_variables=["generation", "documents"],
 )
 

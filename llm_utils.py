@@ -2,8 +2,18 @@ import importlib
 from rdkit.Chem import MolFromSmiles
 import numpy as np
 
+class MyDoc:
+        def __init__(self, doc):
+            self.page_content = doc
+            self.metadata = {'source': 'None',
+                            'title': 'None',
+                            'description': 'None',
+                            'language': 'ru'}
+
 def __can_import(module_names, function_name):
-    
+    """
+    Вспомогательная функция для функции feature_extract
+    """
     return_nan = lambda x: np.nan
     
     for module_name in module_names:
@@ -11,12 +21,10 @@ def __can_import(module_names, function_name):
         try:
             module = importlib.import_module(module_name)
             if hasattr(module, function_name):
-                print('1')
                 feat = getattr(module, function_name)
                 return feat
                
         except ImportError as e:
-            print('3')
             print(f"Ошибка импорта: {e}")
             return return_nan
 
